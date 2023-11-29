@@ -1,8 +1,8 @@
 function analyzeIP() {
     const ipInput = document.getElementById('ipInput');
     const resultDiv = document.getElementById('result');
-    const apikey = '86682e407074952258f3802a85e7bba4';
-    const apiurl = `http://api.ipstack.com/${ipInput.value}?access_key=${apikey}`;
+    const apikey = 'c420d4ff48b788';
+    const apiurl = `https://ipinfo.io/${ipInput.value}?token=${apikey}`;
 
     fetch(apiurl)
         .then(response => response.json())
