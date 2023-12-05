@@ -105,6 +105,10 @@ body {
       display: flex;
       gap: 16px
     }
+    .body-text {
+      flex: 1; /* Allow the body text to expand vertically within its container */
+        /* Additional styling for the body text */
+    }
 
     .project-image {
       width: 100%;
