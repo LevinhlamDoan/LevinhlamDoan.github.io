@@ -1,159 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-     <link rel="icon" href="../assets/images/camera.jpeg" />
-     <title>GIS Project 1</title>
-    <meta name="description" content="GIS mapping.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-        <!-- 
-          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
-
-          (this should be the same across all pages)
-         -->
-        <span class="nav-title">GIS Projects</span>
-        <!-- 
-          TODO - Change the email after 'mailto:' to your email address for contact 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Mapping Project</title>
+    <style>
+        /* Add your CSS styling here */
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        /* Add more styling as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GIS Mapping Project</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Map 1: Urban Development</h2>
+            <img class="project-image" src="./assets/images/GIS_1.1.jpg" alt="Urban Development Map">
+            <p>Description of the map and its insights.</p>
+        </section>
         
-          (this should be the same across all pages)
-        -->
-        <a class="button" href="mailto:lamlvdoan@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
-    </div>
+        <section>
+            <h2>Map 2: Environmental Changes</h2>
+            <img class="project-image" src="map2.jpg" alt="Environmental Changes Map">
+            <p>Description of the map and its insights.</p>
+        </section>
+        
+        <!-- Add more sections for additional maps -->
+    </main>
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PROJECT HEADER -->
-      <div id="project-header">
-          <!-- 
-            TODO
-
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
-        <div class="main-title">Project Name</div>
-        <div class="body-text">This paper investigated the relationship between migration areas segmented by house price levels and three factors associated with households’ characteristics including age, migration distance and previous areas grouped by house price levels. By using cross tabulation analysis and Chi-Square test together with GIS techniques the paper indicated there was significant connections between destination migration areas based on house price ranges either with household age groups, migration distance ranges or previous locations associated with particular house price levels. The paper also presented such relationships on a series of GIS maps, helping us clearly identify several specific spatial patterns.</div>
-        <image class="project-header-image" src="../assets/images/GIS_1.1.pneg">
-      </div>
-
-      <!-- PROJECT DETAILS -->
-      <!-- 
-        TODO
-
-        - Change the 'subheader-text' to whatever header you want for project details
-        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
-      -->
-      <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
-        <div class="project-details-content">
-          <div class="body-text">The project aims to demonstrate the usefulness of a GIS approach to explore the spatial connections between migration flow, house price level, age and distance. Based on the 2011 migration flow data and the 2011 house price data in Greater Manchester in the UK, the paper conducted the Chi-Square tests and produced a series of visual maps to show the spatial relationship between migration flow, distance, age and migration areas segmented by house price levels. The results indicated the strong spatial linkages between migration areas based on the consideration of house price ranges either with age groups, distance ranges or previous locations associated with particular house price levels. Policymakers and planners could use this GIS approach to identify specific migration patterns and areas and help them make informed decisions.</div>
-          <div class="body-text">The paper used the boundaries of Output Areas (8,684 areas), Merged Wards (215 areas) from the 2011 UK Census data and the 2011 house price data (with 25,872 postcodes) from the Land Registry data source in Greater Manchester. 
-
-Furthermore, the paper employed the migration flow data from the 2011 UK Census, and the dataset were downloadable at https://wicid.ukdataservice.ac.uk/. The data included the information about the migration flows from previous areas (one year before) to current destination areas at the levels of output areas and merged wards in Greater Manchester.</div>
-        </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container">
-              <img src="../assets/images/GIS_Project_1.2.png" class="gallery-image">
-              <span class="image-caption">.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/GIS_Project_1.3.png" class="gallery-image">
-              <span class="image-caption">Migration flows coming into high price areas.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/GIS_Project_1.4.png" class="gallery-image">
-              <span class="image-caption">Migration flows coming into low price areas.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/IS_Project_1.5.png" class="gallery-image">
-              <span class="image-caption">Migration flows coming into significantly low price areas.</span>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
-
-	</body>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
 </html>
