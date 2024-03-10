@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Mapping Project 2</title>
+    <style>
+        /* Add your CSS styling here */
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        /* Add more styling as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GIS Mapping Project 2</h1>
+    </header>
+    
+    <main>
+    </p>Researchers have long been considering the role of spatial migration linkages in the housing market as it is important to help planners and policymakers review housing supply and estimate housing demand to provide sufficient housing supply to meet household needs in future. Many have investigated the trade-off between house price and migration but little attention has been paid to exploring their spatial interactions in housing market areas at the local level. To fill the gap, this paper intended to use a GIS approach to uncover the inside values of the 2011 migration flow data and the 2011 house price data to identify the spatial migration patterns in the housing market areas for Greater Manchester in the UK. The results showed that there were specific spatial linkages in various local areas, and finding the problematic patterns may help us make the local housing market operate better by changing the existing problematic patterns, and improving housing conditions and/or transportation system. The contribution of this paper was to demonstrate the usefulness of the GIS approach in generating the useful information hidden in the big data sources to generate new knowledge regarding the spatial relationship between the components of the local housing market system. </p>
+        
+        <section>
+            <h2>Map 1: New built house transactions with a scale of paid price in 2011</h2>
+            <img class="project-image" src="Images/GIS_3.1.jpg" alt="New built house transactions with a scale of paid price in 2011">
+            <p>New built house transactions with a scale of paid price in 2011.</p>
+        </section>
+        
+        <section>
+            <h2>Map 2: New built house transactions with a scale of paid price in 2011</h2>
+            <img class="project-image" src="Images/GIS_3.2.jpg" alt="New built house transactions with a scale of paid price in 2011">
+            <p>New built house transactions with a scale of paid price in 2011.</p>
+        </section>
 
+        <section>
+            <h2>Map 3: Out-mover numbers across 14 housing market areas in Greater Manchester.</h2>
+            <img class="project-image" src="Images/GIS_3.3.jpg" alt="Out-mover numbers across 14 housing market areas in Greater Manchester.">
+            <p>Out-mover numbers across 14 housing market areas in Greater Manchester.</p>
+        </section>
+
+        <section>
+            <h2>Map 4: In-migration and migration density across 14 HMAs</h2>
+            <img class="project-image" src="Images/GIS_3.4.jpg" alt="In-migration and migration density across 14 HMAs">
+            <p>In-migration and migration density across 14 HMAs</p>
+        </section>
+
+        <section>
+            <h2>Map 5: Reciprocal migration flows between Central Rochdale and other submarkets</h2>
+            <img class="project-image" src="Images/GIS_3.5.jpg" alt="Reciprocal migration flows between Central Rochdale and other submarkets">
+            <p>Reciprocal migration flows between Central Rochdale and other submarkets</p>
+        </section>
+
+
+        <p>This paper delves into the critical yet underexplored intersection of spatial migration linkages and their impact on the housing market, with a specific focus on local housing market areas in Greater Manchester, UK. Recognizing the importance of understanding how migration patterns influence housing demand and supply, the study employs Geographic Information Systems (GIS) to analyze 2011 migration flow data and house price data. Through this innovative approach, the research uncovers distinct spatial migration patterns across various local areas, revealing the presence of specific linkages that affect the housing market.
+
+The findings highlight the significance of identifying and addressing problematic spatial linkages to enhance the functioning of local housing markets. By pinpointing areas with issues, policymakers and planners can implement targeted interventions to improve housing conditions, adjust housing supply, or enhance transportation systems, thereby better meeting the needs of households.
+
+The paper's major contribution lies in its demonstration of the GIS approach as a powerful tool for revealing valuable insights hidden within large datasets. By leveraging this technology, the research provides new knowledge on the spatial relationships between migration and housing market dynamics at the local level, offering a novel perspective that could guide future housing policy and planning decisions.</p>
+        <!-- Add more sections for additional maps -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Levinh Doan</p>
+    </footer>
+</body>
+</html>
