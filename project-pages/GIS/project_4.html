@@ -27,30 +27,51 @@
             <h2>Steps:</h2>
             <h3>Data Acquisition:</h3>
             <ul>
-                <!-- List of data acquisition steps -->
+                Obtain UK Census data from 2021, which includes demographic information, including ethnicity groups, at a detailed geographic level Middle layer Super Output Areas (MSOAs). There are 6,856 MSOAs in England.
+            <p>Acquire house price data for England for the year 2020. This data is available from the Land Registry website.</p>
+               <p>Acquire ethnicity data from the UK Data Service website at https://ukdataservice.ac.uk/</p>
+
             </ul>
 
             <h3>Data Preparation:</h3>
             <ul>
-                <!-- List of data preparation steps -->
+                Convert house price data with postcodes to longitude and latitude coordinates using https://www.doogal.co.uk/BatchGeocoding
+Load the UK Census data and house price data into QGIS.
+Ensure that both datasets are in compatible formats and projections.
+Using K-means clustering to group house prices in QGIS with 68 clusters and prior research suggesting that this number of clusters is appropriate for the analysis
+Join the census data representing ethnicity groups with the house price data based on a common geographic identifier MSOA code.
+
             </ul>
 
             <h3>Spatial Analysis:</h3>
             <ul>
-                <!-- List of spatial analysis steps -->
+                Utilize QGIS tools to conduct spatial analysis on the data:
+Mapping the spatial distribution of ethnicity groups and house price clusters.
+Creating thematic maps to visualize the relationship between ethnicity groups and house prices.
+Identifying areas with high concentrations of specific ethnicity groups and examining how they correlate with house prices.
+Conducting spatial autocorrelation analysis to detect spatial patterns and clusters.
+
             </ul>
 
             <h3>SQL Analysis:</h3>
             <ul>
-                <!-- List of SQL analysis steps -->
+                Export the joined dataset from QGIS to a SQL-compatible database.
+Write SQL queries to perform additional analysis on the data including:
+Calculate summary statistics for house prices within different ethnicity groups.
+Identify correlations between ethnicity composition and house prices.
+Explore the relationship between other socio-economic factors and house prices, such as income levels or education attainment, in conjunction with ethnicity data.
+
             </ul>
 
             <h3>Visualization and Reporting:</h3>
             <ul>
-                <!-- List of visualization and reporting steps -->
+                Generate visualizations (maps, charts, graphs) based on the results of the spatial and SQL analysis.
+Create a comprehensive report summarizing the findings of the analysis, including any correlations or patterns observed between ethnicity groups and house prices in England.
+Provide insights and recommendations based on the analysis for relevant stakeholders, such as urban planners, policymakers, or real estate developers.
+
             </ul>
 
-            <h2>Expected Outcome:</h2>
+            <h2>Outcome:</h2>
             <p>Through the project, I have gained insights into the spatial distribution of ethnicity groups and their potential impact on house prices within England. Through the integration of QGIS for spatial analysis and SQL for data manipulation, I have demonstrated proficiency in analyzing complex socio-economic phenomena using geospatial data.</p>
         </section>
         
