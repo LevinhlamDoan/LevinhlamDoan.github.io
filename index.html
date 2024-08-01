@@ -1,287 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-
-    <!-- 
-      TO Levinhlam Doan
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-    <link rel="icon" href="./assets/images/1311.png" />
-		<title>My Portfolio Page</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A portfolio for my interest and career.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio Page</title>
+    <!-- Optional: Link to external CSS and favicon -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- <link rel="icon" href="./assets/images/1311.png"> -->
+</head>
+<body>
+    <header>
+        <h1>Levinh Doan</h1>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="./CV/Resume-Levinh Doan.doc" download="Resume-Levinh Doan.doc">Download Resume</a></li>
 
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+                <!--<li class="menu-item"><a href="#services">Portfolio</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>-->
+            </ul>
+        </nav>
+    </header>
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Portfolio Title</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:lamlvdoan@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
-    </div>
-
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <!-- 
-            TODO
-
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
-          <img src="./assets/images/1311.png" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
-            <span class="image-caption">Levinh's Photo</span>
-          </a>
-        </div>
-
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hey, I'm @LevinhlamDoan</span>
-              <div class="body-text">I’m currently an IT student at Canberra Institute of Technology who aims to develop my career in the information technology field.</div>
+    <main>
+        <section id="home">
+            
+            <div class="about_me">
+                <div class="about-image-container">
+                    <img src="./image/mypic.jpg" class="about-me-image" alt="My Picture">
+                </div>
+                <div class="about-me-text-container">
+                    <div class="subheader-text project-title">About me</div>
+                    <div class="body-text project-card-text">
+                        <div>I am a versatile professional with a Bachelor's degree in Civil Engineering, complemented by a Master's and a Ph.D. in urban studies.
+            Proficient in GIS, data analysis, Excel, and statistical software, I am currently deepening my expertise in cybersecurity</a>.
+                        </div><br>
+                        <div>
+                            <ul class="inline-list">
+                                <li>ACT, Australia</li>
+                                <li>Linkedin</li>
+                                <li>Github</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
+            
+        </section>
 
-      <!-- ABOUT SECTION -->
-      <!-- 
-        TODO
+        <section id="portfolio">
+            <br><h1>My interest</h1><br>
+            <div class="project-card-box">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./image/onlinemapping.svg" class="project-image" alt="Data Analysis Project">
+                    </div>
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Online Mapping</div>
+                        <div class="body-text project-card-text">
+                            I create dynamic and interactive online maps using HTML, CSS, JavaScript, MapLibre GL JS, bringing spatial data to life with geocoding and spatial analysis techniques. My expertise in data visualization allows me to transform big data into intuitive and insightful maps. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/onlinemapping.html">View my portfolio</a></a>.
+                        </div>
+                    </div>
+                </div>
 
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
-      <div id="about-section">
-        <span class="subheader-text">About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">I am a versatile professional with a Bachelor's degree in Civil Engineering, complemented by a Master's and a Ph.D. in urban studies. My background includes valuable experience as a former lecturer and researcher, with a notable contribution of three published scientific papers in urban planning. Proficient in GIS, data analysis, Excel, and statistical software, I am currently deepening my expertise in cybersecurity. I am actively seeking a transition into the IT field, with a particular interest in roles related to the technical field. By combining academic rigor with a dynamic IT perspective, I am well-prepared to make meaningful contributions to the technology sector.</div>
-        </div>
-      </div>
-
-      <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">GIS Project</span>
-
-        <div class="projects-container">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./image/gismapping.svg" class="project-image" alt="GIS Mapping Project">
+                    </div>
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">GIS Mapping</div>
+                        <div class="body-text project-card-text">
+                            I specialize in GIS mapping using QGIS and ArcGIS, performing geospatial analysis and data visualization to create detailed and accurate maps. My work supports applications such as urban planning, environmental management, and resource allocation.<a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/onlinemapping.html">View my portfolio</a></a>.
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
-          <div class="project-card">
-            <img src="./project-pages/GIS/Images/GIS_3.3.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Spatial patterns</div>
-              <div class="body-text">I used GIS to analyze 2011 migration and house price data in Greater Manchester, UK, revealing spatial patterns. Identifying problematic patterns aids in improving housing conditions and transportation. The study highlights GIS's value in uncovering spatial relationships in housing markets. The paper is published on Springer journal, <a href="https://link.springer.com/article/10.1007/s12061-022-09483-x">view it here</a></div>
-            </div>
-            <a class="button" href="./project-pages/GIS/project_3.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./project-pages/GIS/Images/GIS_1.1.jpg" class="project-image">
-            <div class="project-card-text-container">
-	      <div class="subheader-text project-title">Migration flows</div>
-              <div class="body-text">I used GIS to explore the spatial links between migration, house prices, age, and distance in Greater Manchester, UK, using 2011 data. Visual maps reveal strong connections between migration patterns and house prices, aiding policymakers in identifying trends for informed decision-making.The paper is published on Emeral journal, <a href="https://www.emerald.com/insight/content/doi/10.1108/IJHMA-04-2021-0045/full/html">view it here</a></div>
-            </div>
-            <a class="button" href="./project-pages/GIS/Project_1.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./project-pages/GIS/Images/GIS_2_6.png" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Housing search pattern</div>
-              <div class="body-text">I used Rightmove plc's data to predict housing trends and employs GIS to explore demand patterns and mismatches. Findings show a link between online views and sales values, informing planners on housing decisions. Despite data issues, it highlights GIS's role in land allocation and addresses gaps in analyzing user-generated data and market outcomes.The paper is published on Emeral journal, <a href="https://www.emerald.com/insight/content/doi/10.1108/ohi-06-2022-0145/full/html">view it here</a></div>
-            </div>
-            <a class="button" href="./project-pages/GIS/project_2.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
-      
-   
+            <div class="project-card-box">
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./image/DataAnalysisVisualization.svg" class="project-image" alt="Data Analysis Project">
+                    </div>
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Data Analysis and Visualization</div>
+                        <div class="body-text project-card-text">
+                            I am interested in data analysis and visualization using SQL, Python, Excel, Power BI, and Tableau. My expertise allows me to transform raw data into actionable insights, creating interactive and visually appealing reports and dashboards for informed decision-making across various domains</a>.
+                        </div>
+                    </div>
+                </div>
 
-<!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">IT Projects</span>
-
-        <div class="projects-container">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="./image/scientificresearch.svg" class="project-image" alt="Scientific Research Project">
+                    </div>
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Scientific Research</div>
+                        <div class="body-text project-card-text">
+                            I have published a number of scientific research papers with expertise in GIS mapping, Statistics, SPSS, and Excel. Utilizing these skills, I have performed data analysis and methodical experimentation, with the aim to provide valuable insights regarding big datasets. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/onlinemapping.html">View my publication</a></a>.
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+    </main>
 
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
-          <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">IP Location Tool.</div>
-              <div class="body-text">I have developed an application to identify the location of IP address using html, javescript and API.</div>
-            </div>
-            <a class="button" href="https://levinhlamdoan.github.io/project-pages/IP-analysis-tool.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Website to IP Address Tool</div>
-              <div class="body-text">I have developed an application to identify IP address from website using html, javascript and python.<br>I have also used Azure App Service to present the application.</div>
-            </div>
-            <a class="button" href="https://web2ip.azurewebsites.net/">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Super Long Project</div>
-              <div class="body-text">It will be updated soon</div>
-            </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
-    
-<!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">Scientific Research With Big Data</span>
-
-        <div class="projects-container">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
-            </div>
-
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
-          <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Migration Patterns</div>
-              <div class="body-text">An GIS approach to analyzing migration and house price datasets, revealing spatial spatial linkages.</div>
-            </div>
-            <a class="button" href="https://link.springer.com/article/10.1007/s12061-022-09483-x">
-              <span class="button-text">Read more</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Search mismatches</div>
-              <div class="body-text">Analysing large-scale search data from Rightmove plc, suggesting the potential of leveraging user-generated data from online property portals to predict housing market activities.</div>
-            </div>
-            <a class="button" href="https://www.emerald.com/insight/content/doi/10.1108/ohi-06-2022-0145/full/html">
-              <span class="button-text">Read more</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Spatial migration patterns</div>
-              <div class="body-text">Demonstrating the usefulness of an GIS method with quantitative techniques to analsyse the combination of big datasets, including migration and house price.</div>
-            </div>
-            <a class="button" href="https://www.emerald.com/insight/content/doi/10.1108/IJHMA-04-2021-0045/full/html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
-
-
-
-
-		
-    
+    <footer>
+        <p>&copy; 2024 Levinh Doan. All rights reserved.</p><br>
+        <p>&copy; Email: lamlvdoan@gmail.com.</p>
+    </footer>
+</body>
+</html>
