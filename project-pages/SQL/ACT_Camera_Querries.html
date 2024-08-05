@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Portfolio Questions and Queries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .query {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 5px;
+            overflow-x: auto;
+        }
+        .query pre {
+            margin: 0;
+        }
+        code {
+            font-family: monospace;
+            color: #e74c3c;
+        }
+        .question {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>SQL Portfolio Questions and Queries: ACT Camera Locations and Fines</h1>
+
+    <div class="section">
+        <p class="question">1. Basic Data Retrieval</p>
+        <p>Question: Retrieve all columns from the <code>CAMERA_DATA</code> table.</p>
+        <div class="query">
+            <pre><code>SELECT * FROM CAMERA_DATA;</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">2. Filtering Data</p>
+        <p>Question: Find all mobile speed camera records with a penalty amount greater than $300.</p>
+        <div class="query">
+            <pre><code>SELECT * FROM CAMERA_DATA
+WHERE CAMERA_TYPE = 'MOBILE SPEED CAMERA'
+AND PENALTY_AMOUNT > 300;</code></pre><br>
+Answer: 19 cases
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">3. Sorting Data</p>
+        <p>Question: Retrieve all camera data sorted by <code>PENALTY_AMOUNT</code> in descending order.</p>
+        <div class="query">
+            <pre><code>SELECT * FROM CAMERA_DATA
+ORDER BY PENALTY_AMOUNT DESC;</code></pre><br>
+Answer: The highest amount: 3,051,282
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">4. Aggregating Data</p>
+        <p>Question: Calculate the total penalty amount for each camera type.</p>
+        <div class="query">
+            <pre><code>SELECT CAMERA_TYPE, SUM(PENALTY_AMOUNT) AS Total_Penalty
+FROM CAMERA_DATA
+GROUP BY CAMERA_TYPE;</code></pre><br>
+Answers: <br>
+FIXED ONLY SPEED CAMERA :2378386<br>
+MOBILE SPEED CAMERA:222212<br>
+RED LIGHT AND SPEED CAMERA:7959278
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">5. Grouping Data</p>
+        <p>Question: Count the number of cameras at each location code.</p>
+        <div class="query">
+            <pre><code>SELECT LOCATION_CODE, COUNT(*) AS Camera_Count
+FROM CAMERA_DATA
+GROUP BY LOCATION_CODE;</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">6. Joining Tables</p>
+        <p>Question: Retrieve offence data along with camera data for each offence, matching on <code>CAMERA_TYPE</code> and <code>LOCATION_CODE</code>.</p>
+        <div class="query">
+            <pre><code>SELECT o.*, c.*
+FROM OFFENSE_DATA o
+JOIN CAMERA_DATA c
+ON o.CAMERA_TYPE = c.CAMERA_TYPE
+AND o.LOCATION_CODE = c.LOCATION_CODE;</code></pre>
+        </div><br>
+        Answer: 1966 cases
+    </div>
+
+    <div class="section">
+        <p class="question">7. Updating Records</p>
+        <p>Question: Update the penalty amount for a specific camera location.</p>
+        <div class="query">
+            <pre><code>UPDATE CAMERA_DATA
+SET PENALTY_AMOUNT = 350
+WHERE CAMERA_TYPE = 'MOBILE SPEED CAMERA'
+AND LOCATION_CODE = 286;</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">8. Deleting Records</p>
+        <p>Question: Delete all records for a specific camera type.</p>
+        <div class="query">
+            <pre><code>DELETE FROM CAMERA_DATA
+WHERE CAMERA_TYPE = 'RED LIGHT AND SPEED CAMERA';</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">9. Inserting Records</p>
+        <p>Question: Insert a new record into the <code>CAMERA_DATA</code> table.</p>
+        <div class="query">
+            <pre><code>INSERT INTO CAMERA_DATA (CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT)
+VALUES ('MOBILE SPEED CAMERA', 4005, -35.3075, 149.1245, '123 New Address, Canberra ACT 2601', 300, 5);</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">10. Subqueries</p>
+        <p>Question: Find camera types that have a higher average penalty amount than the overall average penalty amount.</p>
+        <div class="query">
+            <pre><code>SELECT CAMERA_TYPE
+FROM CAMERA_DATA
+GROUP BY CAMERA_TYPE
+HAVING AVG(PENALTY_AMOUNT) > (SELECT AVG(PENALTY_AMOUNT) FROM CAMERA_DATA);</code></pre>
+        <br>Answer: FIXED ONLY SPEED CAMERA</div>
+    </div>
+
+    <div class="section">
+        <p class="question">11. Data Transformation</p>
+        <p>Question: Change the data type of a column in a new table, SQLite does not support the <code>ALTER COLUMN</code> statement directly.</p>
+        <div class="query">
+            <pre><code>-- Create a new table with the desired schema
+CREATE TABLE CAMERA_DATA_NEW (
+    CAMERA_TYPE VARCHAR(50),
+    LOCATION_CODE INT,
+    LATITUDE DECIMAL(9, 6),
+    LONGITUDE DECIMAL(9, 6),
+    ADDRESS VARCHAR(255),
+    PENALTY_AMOUNT DECIMAL(10, 2),
+    CASE_COUNT INT,
+    PRIMARY KEY (CAMERA_TYPE, LOCATION_CODE)
+);
+
+-- Copy data from the old table to the new table
+INSERT INTO CAMERA_DATA_NEW (CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT)
+SELECT CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT
+FROM CAMERA_DATA;
+
+-- Drop the old table
+DROP TABLE CAMERA_DATA;
+
+-- Rename the new table to the original table name
+ALTER TABLE CAMERA_DATA_NEW RENAME TO CAMERA_DATA;</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">12. Data Integrity and Constraints</p>
+        <p>Question: Add a UNIQUE constraint to ensure that no two records have the same <code>CAMERA_TYPE</code> and <code>LOCATION_CODE</code>.</p>
+        <div class="query">
+            <pre><code>-- Create a new table with a UNIQUE constraint
+CREATE TABLE CAMERA_DATA_NEW (
+    CAMERA_TYPE VARCHAR(50),
+    LOCATION_CODE INT,
+    LATITUDE DECIMAL(9, 6),
+    LONGITUDE DECIMAL(9, 6),
+    ADDRESS VARCHAR(255),
+    PENALTY_AMOUNT DECIMAL(10, 2),
+    CASE_COUNT INT,
+    PRIMARY KEY (CAMERA_TYPE, LOCATION_CODE)
+);
+
+-- Copy data from the old table to the new table
+INSERT INTO CAMERA_DATA_NEW (CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT)
+SELECT CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT
+FROM CAMERA_DATA;
+
+-- Drop the old table
+DROP TABLE CAMERA_DATA;
+
+-- Rename the new table to the original table name
+ALTER TABLE CAMERA_DATA_NEW RENAME TO CAMERA_DATA;</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">13. Handling Data Import Errors</p>
+        <p>Question: Handle errors during data import where duplicate constraints might be violated.</p>
+        <div class="query">
+            <pre><code>-- Assuming data import creates duplicates
+-- Identify duplicates
+SELECT CAMERA_TYPE, LOCATION_CODE, COUNT(*)
+FROM CAMERA_DATA
+GROUP BY CAMERA_TYPE, LOCATION_CODE
+HAVING COUNT(*) > 1;
+
+-- Remove duplicates, keeping only one instance
+DELETE FROM CAMERA_DATA
+WHERE ROWID NOT IN (
+    SELECT MIN(ROWID)
+    FROM CAMERA_DATA
+    GROUP BY CAMERA_TYPE, LOCATION_CODE
+);</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <p class="question">14. Complex Queries</p>
+        <p>Question: Find the camera with the highest penalty amount and retrieve its details.</p>
+        <div class="query">
+            <pre><code>SELECT *
+FROM CAMERA_DATA
+WHERE PENALTY_AMOUNT = (SELECT MAX(PENALTY_AMOUNT) FROM CAMERA_DATA);</code></pre>
+        <br>
+    Answer: <br>
+    FIXED ONLY SPEED CAMERA,LOCATION_CODE:1027</div>
+    </div>
+
+    <div class="section">
+        <p class="question">15. Data Validation</p>
+        <p>Question: Validate if there are any records with NULL values in critical columns.</p>
+        <div class="query">
+            <pre><code>SELECT *
+FROM CAMERA_DATA
+WHERE CAMERA_TYPE IS NULL
+   OR LOCATION_CODE IS NULL
+   OR ADDRESS IS NULL;</code></pre>
+        </div><br>
+        Answer: 0
+    </div>
+
+    <p>These questions and queries cover a broad spectrum of SQL operations, from basic data retrieval to advanced data transformations and integrity checks.</p>
+</body>
+</html>
