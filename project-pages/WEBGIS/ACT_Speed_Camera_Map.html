@@ -1,1 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ACT Speed Camera Locations</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .maplibregl-ctrl.my-custom-control {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .custom-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .legend {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+            z-index: 1;
+        }
+        .legend div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .legend .color-box {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .legend .red {
+            background-color: #ff0000;
+        }
+        .legend .blue {
+            background-color: #007cbf;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Function to parse the Location string into coordinates array
+        function parseLocation(locationString) {
+            const coordinates = locationString.replace(/[()]/g, '').split(', ').map(Number);
+            return [coordinates[1], coordinates[0]]; // [lng, lat]
+        }
 
+        // Convert camera locations to GeoJSON format
+        function createGeoJsonFromCoordinates(coordinatesArray, rawData) {
+            return {
+                type: 'FeatureCollection',
+                features: coordinatesArray.map((coord, index) => ({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: coord // [lng, lat]
+                    },
+                    properties: {
+                        "Camera_Type": rawData[index]?.["CAMERA TYPE"] || "Unknown",
+                        "Address": rawData[index]?.["LOCATION DESCRIPTION"] || "Unknown",
+                        "Total_Amount": rawData[index]?.["Sum_Pen_Amt"] || 0,
+                        "Total_Fines": rawData[index]?.["Sum_Inf_Count"] || 0
+                    }
+                }))
+            };
+        }
+
+        // Initialize the map
+        var map = new maplibregl.Map({
+            container: 'map', // Container id
+            style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=wAvkB7mv975z4RvO8dix', // Style URL
+            center: [149.1245, -35.3075], // ACT, Australia [lng, lat]
+            zoom: 10 // Starting zoom level for a closer view
+        });
+
+        var popup = new maplibregl.Popup({ closeOnClick: false });
+
+        // Fetch suburbs data
+        fetch('./suburb-10-act.geojson')
+            .then(response => response.json())
+            .then(SuburbResponse => {
+                const suburbs = SuburbResponse;
+                console.log("Suburbs", SuburbResponse);
+
+                // Fetch camera location data
+                fetch('./Camera_Location_Fines.json')
+                    .then(response => response.json())
+                    .then(LocationResponse => {
+                        const coordinatesArray = LocationResponse.map(Data => parseLocation(Data.Location));
+                        const geoJson = createGeoJsonFromCoordinates(coordinatesArray, LocationResponse);
+
+                        const Camera_Location = {
+                            rawData: LocationResponse,
+                            geoJson: geoJson
+                        };
+
+                        console.log("Camera_Location", Camera_Location);
+
+                        // Map load event
+                        map.on('load', () => {
+                            // Add source and layer for suburbs
+                            map.addSource("suburbs", {
+                                type: "geojson",
+                                data: suburbs
+                            });
+
+                            map.addLayer({
+                                id: "states-fill-layer",
+                                type: "fill",
+                                source: "suburbs",
+                                paint: {
+                                    "fill-color": 'rgba(200, 200, 200, 0.5)', // Pale color with opacity
+                                    "fill-opacity": 0 // Full opacity
+                                }
+                            });
+
+                            map.addLayer({
+                                id: "states-line-layer",
+                                type: "line",
+                                source: "suburbs",
+                                paint: {
+                                    "line-opacity": 0.5,
+                                    "line-color": "#000000"
+                                }
+                            });
+
+                            // Add source and layer for Camera Location
+                            map.addSource('Camera_Location', {
+                                type: 'geojson',
+                                data: Camera_Location.geoJson // Use only the GeoJSON part for the layer
+                            });
+
+                            // Add a heatmap layer for total fines
+                            map.addLayer({
+                                id: 'heatmap-layer',
+                                type: 'heatmap',
+                                source: 'Camera_Location',
+                                maxzoom: 15,
+                                paint: {
+                                    'heatmap-weight': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['get', 'Total_Fines'],
+                                        0, 0,
+                                        6002, 500
+                                    ],
+                                    'heatmap-intensity': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['zoom'],
+                                        0, 1,
+                                        15, 50
+                                    ],
+                                    'heatmap-color': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['heatmap-density'],
+                                        0, 'rgba(255,255,255,0)',  // Fully transparent white at density 0
+                                        0.2, 'rgba(255,229,229,0.5)', // Light pink at low density
+                                        0.4, 'rgba(255,153,153,0.7)', // Light red at medium-low density
+                                        0.6, 'rgba(255,102,102,0.8)', // Red at medium-high density
+                                        0.8, 'rgba(255,51,51,0.9)',   // Darker red at high density
+                                        1, 'rgba(255,0,0,1)'          // Fully opaque red at maximum density
+                                    ],
+                                    'heatmap-radius': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['zoom'],
+                                        0, 0,
+                                        15, 20
+                                    ],
+                                    'heatmap-opacity': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['zoom'],
+                                        7, 1,
+                                        15, 1
+                                    ],
+                                }
+                            });
+
+                            // Add a layer for the camera location points with dynamic circle radius based on total fines
+                            map.addLayer({
+                                id: "point-layer",
+                                type: "circle",
+                                source: "Camera_Location",
+                                paint: {
+                                    'circle-radius': [
+                                        'interpolate',
+                                        ['linear'],
+                                        ['get', 'Total_Fines'],
+                                        0, 3, // Points with 0 fines have a radius of 5
+                                        6002, 20 // Points with 100 fines have a radius of 20
+                                    ],
+                                    'circle-color': '#007cbf', // Unique color for all points
+                                    'circle-stroke-width': 2, // Width of the circle's border
+                                    'circle-stroke-color': '#ffffff' // Color of the circle's border
+                                }
+                            });
+
+                            // Fit map bounds to display all suburbs and camera locations
+                            const bounds = turf.bbox(suburbs);
+                            map.fitBounds(bounds, { padding: 50 });
+
+                            // Add click event to display popup with camera type and address
+                            map.on('click', 'point-layer', function (e) {
+                                const clickedFeatures = map.queryRenderedFeatures(e.point, { layers: ['point-layer'] });
+                                console.log("Clicked Features", clickedFeatures);
+
+                                if (clickedFeatures.length > 0) {
+                                    const { Camera_Type, Address, Total_Amount, Total_Fines } = clickedFeatures[0].properties;
+
+                                    popup.setLngLat(e.lngLat).setHTML(
+                                        `Camera Type: ${Camera_Type}<br>Address: ${Address}<br>Total Dollar Amount of Fines: ${Total_Amount}<br>Total Fines: ${Total_Fines}`
+                                    ).addTo(map);
+                                }
+                            });
+                        });
+
+                        // Handle missing images
+                        map.on('styleimagemissing', function(e) {
+                            const id = e.id; // The ID of the missing image
+                            if (!map.hasImage(id)) {
+                                // Add a default placeholder image for the missing image
+                                map.loadImage('https://via.placeholder.com/30', function(error, image) {
+                                    if (error) throw error;
+                                    map.addImage(id, image);
+                                });
+                            }
+                        });
+                    })
+                    .catch(error => console.error('Error fetching Camera Location data:', error));
+            })
+            .catch(error => console.error('Error fetching suburbs data:', error));
+
+        // Control implemented as ES6 class
+        class HelloWorldControl {
+            onAdd(map) {
+                this._map = map;
+                this._container = document.createElement('div');
+                this._container.className = 'maplibregl-ctrl my-custom-control';
+                this._container.innerHTML = `
+                  <div>
+                    <p class="custom-text">ACT Streetlight Speed Camera<br>Locations and Fines with Data 2024!</p>
+                  </div>
+                `;
+                return this._container;
+            }
+
+            onRemove() {
+                this._container.parentNode.removeChild(this._container);
+                this._map = undefined;
+            }
+        }
+
+        // Add custom control to the map
+        map.addControl(new HelloWorldControl(), 'top-left');
+
+        // Add legend to the map
+        var legend = document.createElement('div');
+        legend.className = 'legend';
+        legend.innerHTML = `
+            <div><div class="color-box red"></div> Violation Fines</div>
+            <div><div class="color-box blue"></div> Camera Locations</div>
+        `;
+        map.getContainer().appendChild(legend);
+    </script>
+</body>
+</html>
