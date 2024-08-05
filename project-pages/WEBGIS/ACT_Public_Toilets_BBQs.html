@@ -61,8 +61,8 @@
             zoom: 10 // Starting zoom level
         });
 
-        // Fetch and handle GeoJSON data sequentially
         map.on('load', function () {
+            // Fetch and add the public toilets data
             fetch('./converted.geojson')
                 .then(response => {
                     if (!response.ok) {
@@ -71,7 +71,6 @@
                     return response.json();
                 })
                 .then(publicToilets => {
-                    // Add the public toilets source and layer
                     map.addSource('public_toilets', {
                         type: 'geojson',
                         data: publicToilets
@@ -89,7 +88,7 @@
                         }
                     });
 
-                    // Fetch the BBQ GeoJSON data
+                    // Fetch and add the BBQ data
                     return fetch('/BBQ.geojson');
                 })
                 .then(response => {
@@ -99,7 +98,6 @@
                     return response.json();
                 })
                 .then(bbq => {
-                    // Add the BBQ source and layer
                     map.addSource('bbq', {
                         type: 'geojson',
                         data: bbq
