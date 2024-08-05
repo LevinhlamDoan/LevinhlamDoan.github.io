@@ -48,6 +48,16 @@
             left: 10px;
             z-index: 1;
         }
+        .maplibregl-ctrl.my-custom-control {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .custom-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -61,109 +71,121 @@
             zoom: 10 // Starting zoom level
         });
 
+        // Fetch the GeoJSON data and add it to the map
         map.on('load', function () {
-            // Fetch and add the public toilets data
-            fetch('./converted.geojson')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok for converted.geojson');
-                    }
-                    return response.json();
-                })
-                .then(publicToilets => {
-                    map.addSource('public_toilets', {
-                        type: 'geojson',
-                        data: publicToilets
-                    });
-
-                    map.addLayer({
-                        id: 'public_toilets',
-                        type: 'circle',
-                        source: 'public_toilets',
-                        paint: {
-                            'circle-radius': 8,
-                            'circle-color': '#007cbf',
-                            'circle-stroke-width': 2,
-                            'circle-stroke-color': '#ffffff'
-                        }
-                    });
-
-                    // Fetch and add the BBQ data
-                    return fetch('./BBQ.geojson');
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok for BBQ.geojson');
-                    }
-                    return response.json();
-                })
-                .then(bbq => {
-                    map.addSource('bbq', {
-                        type: 'geojson',
-                        data: bbq
-                    });
-
-                    map.addLayer({
-                        id: 'bbq',
-                        type: 'circle',
-                        source: 'bbq',
-                        paint: {
-                            'circle-radius': 8,
-                            'circle-color': '#ff5722',
-                            'circle-stroke-width': 2,
-                            'circle-stroke-color': '#ffffff'
-                        }
-                    });
-
-                    // Calculate distances and suggest nearby locations
-                    const publicToiletsFeatures = publicToilets.features;
-                    const bbqFeatures = bbq.features;
-                    const nearbyLocations = [];
-
-                    publicToiletsFeatures.forEach(toilet => {
-                        const toiletCoords = toilet.geometry.coordinates;
-                        bbqFeatures.forEach(bbq => {
-                            const bbqCoords = bbq.geometry.coordinates;
-                            const distance = turf.distance(
-                                turf.point(toiletCoords),
-                                turf.point(bbqCoords),
-                                { units: 'meters' }
-                            );
-                            if (distance < 100) { // Check if the distance is below 100 meters
-                                nearbyLocations.push({
-                                    toilet: toilet.properties,
-                                    bbq: bbq.properties,
-                                    distance: distance
-                                });
-                            }
-                        });
-                    });
-
-                    // Display nearby locations
-                    if (nearbyLocations.length > 0) {
-                        console.log('Nearby Locations (within 100 meters):', nearbyLocations);
-                    } else {
-                        console.log('No nearby locations found within 100 meters.');
-                    }
-
-                    // Add legend to the map
-                    var legend = document.createElement('div');
-                    legend.className = 'legend';
-                    legend.innerHTML = `
-                        <div><div class="color-box blue"></div> Public Toilets</div>
-                        <div><div class="color-box" style="background-color: #ff5722;"></div> BBQ Locations</div>
-                    `;
-                    map.getContainer().appendChild(legend);
-
-                    // Add map title to the map
-                    var mapTitle = document.createElement('div');
-                    mapTitle.className = 'map_title';
-                    mapTitle.innerHTML = 'Public Toilet and BBQ Locations';
-                    map.getContainer().appendChild(mapTitle);
-                })
-                .catch(error => {
-                    console.error('Error fetching the GeoJSON data:', error);
+            Promise.all([
+                fetch('./converted.geojson').then(response => response.json()),
+                fetch('/BBQ.geojson').then(response => response.json())
+            ])
+            .then(([publicToilets, bbq]) => {
+                // Add the public toilets source and layer
+                map.addSource('public_toilets', {
+                    type: 'geojson',
+                    data: publicToilets
                 });
+
+                map.addLayer({
+                    id: 'public_toilets',
+                    type: 'circle',
+                    source: 'public_toilets',
+                    paint: {
+                        'circle-radius': 8,
+                        'circle-color': '#007cbf',
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#ffffff'
+                    }
+                });
+
+                // Add the BBQ source and layer
+                map.addSource('bbq', {
+                    type: 'geojson',
+                    data: bbq
+                });
+
+                map.addLayer({
+                    id: 'bbq',
+                    type: 'circle',
+                    source: 'bbq',
+                    paint: {
+                        'circle-radius': 8,
+                        'circle-color': '#ff5722',
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#ffffff'
+                    }
+                });
+
+                // Calculate distances and suggest nearby locations
+                const publicToiletsFeatures = publicToilets.features;
+                const bbqFeatures = bbq.features;
+                const nearbyLocations = [];
+
+                publicToiletsFeatures.forEach(toilet => {
+                    const toiletCoords = toilet.geometry.coordinates;
+                    bbqFeatures.forEach(bbq => {
+                        const bbqCoords = bbq.geometry.coordinates;
+                        const distance = turf.distance(
+                            turf.point(toiletCoords),
+                            turf.point(bbqCoords),
+                            { units: 'meters' }
+                        );
+                        if (distance < 100) { // Check if the distance is below 100 meters
+                            nearbyLocations.push({
+                                toilet: toilet.properties,
+                                bbq: bbq.properties,
+                                distance: distance
+                            });
+                        }
+                    });
+                });
+
+                // Display nearby locations
+                if (nearbyLocations.length > 0) {
+                    console.log('Nearby Locations (within 100 meters):', nearbyLocations);
+                } else {
+                    console.log('No nearby locations found within 100 meters.');
+                }
+
+                // Add legend to the map
+                var legend = document.createElement('div');
+                legend.className = 'legend';
+                legend.innerHTML = `
+                    <div><div class="color-box blue"></div> Public Toilets</div>
+                    <div><div class="color-box" style="background-color: #ff5722;"></div> BBQ Locations</div>
+                `;
+                map.getContainer().appendChild(legend);
+
+                // Add map title to the map
+                var mapTitle = document.createElement('div');
+                mapTitle.className = 'map_title';
+                mapTitle.innerHTML = 'Public Toilet and BBQ Locations';
+                map.getContainer().appendChild(mapTitle);
+
+                // Control implemented as ES6 class
+                class HelloWorldControl {
+                    onAdd(map) {
+                        this._map = map;
+                        this._container = document.createElement('div');
+                        this._container.className = 'maplibregl-ctrl my-custom-control';
+                        this._container.innerHTML = `
+                          <div>
+                            <p class="custom-text">ACT Public Toilet and BBQ Locations<br>Data 2024!</p>
+                          </div>
+                        `;
+                        return this._container;
+                    }
+
+                    onRemove() {
+                        this._container.parentNode.removeChild(this._container);
+                        this._map = undefined;
+                    }
+                }
+
+                // Add custom control to the map
+                map.addControl(new HelloWorldControl(), 'top-left');
+            })
+            .catch(error => {
+                console.error('Error fetching the GeoJSON data:', error);
+            });
         });
     </script>
 </body>
