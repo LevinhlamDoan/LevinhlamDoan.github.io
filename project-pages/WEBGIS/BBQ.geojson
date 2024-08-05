@@ -1,0 +1,6389 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947649,
+          -35.326044
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ245",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326044, 148.947649)",
+        "LATITUDE": -35.326044,
+        "LONGITUDE": 148.947649
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948567,
+          -35.325044
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ377",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325044, 148.948567)",
+        "LATITUDE": -35.325044,
+        "LONGITUDE": 148.948567
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951424,
+          -35.246111
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ319",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 3",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.246111, 148.951424)",
+        "LATITUDE": -35.246111,
+        "LONGITUDE": 148.951424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946639,
+          -35.325993
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ218",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325993, 148.946639)",
+        "LATITUDE": -35.325993,
+        "LONGITUDE": 148.946639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946114,
+          -35.326106
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ207",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326106, 148.946114)",
+        "LATITUDE": -35.326106,
+        "LONGITUDE": 148.946114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939634,
+          -35.326471
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ261",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.326471, 148.939634)",
+        "LATITUDE": -35.326471,
+        "LONGITUDE": 148.939634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946283,
+          -35.326076
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ324",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326076, 148.946283)",
+        "LATITUDE": -35.326076,
+        "LONGITUDE": 148.946283
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95164,
+          -35.245565
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ317",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.245565, 148.95164)",
+        "LATITUDE": -35.245565,
+        "LONGITUDE": 148.95164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951187,
+          -35.24295
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ312",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Swamp Creek",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.24295, 148.951187)",
+        "LATITUDE": -35.24295,
+        "LONGITUDE": 148.951187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.94068,
+          -35.326844
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ254",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.326844, 148.94068)",
+        "LATITUDE": -35.326844,
+        "LONGITUDE": 148.94068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.952437,
+          -35.248429
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ250",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.248429, 148.952437)",
+        "LATITUDE": -35.248429,
+        "LONGITUDE": 148.952437
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951336,
+          -35.250238
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ350",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.250238, 148.951336)",
+        "LATITUDE": -35.250238,
+        "LONGITUDE": 148.951336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948074,
+          -35.325953
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ246",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325953, 148.948074)",
+        "LATITUDE": -35.325953,
+        "LONGITUDE": 148.948074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.952509,
+          -35.249009
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ375",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.249009, 148.952509)",
+        "LATITUDE": -35.249009,
+        "LONGITUDE": 148.952509
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947611,
+          -35.326045
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ455",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326045, 148.947611)",
+        "LATITUDE": -35.326045,
+        "LONGITUDE": 148.947611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.248579,
+          -35.327904
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ242",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Molonglo Gorge Nature Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.327904, 149.248579)",
+        "LATITUDE": -35.327904,
+        "LONGITUDE": 149.248579
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948416,
+          -35.325206
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ325",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325206, 148.948416)",
+        "LATITUDE": -35.325206,
+        "LONGITUDE": 148.948416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946395,
+          -35.326049
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ347",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326049, 148.946395)",
+        "LATITUDE": -35.326049,
+        "LONGITUDE": 148.946395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948453,
+          -35.3255
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ265",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.3255, 148.948453)",
+        "LATITUDE": -35.3255,
+        "LONGITUDE": 148.948453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.13975,
+          -35.30815
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ126",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Bowen Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.30815, 149.13975)",
+        "LATITUDE": -35.30815,
+        "LONGITUDE": 149.13975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.876164,
+          -35.290285
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ489",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.290285, 148.876164)",
+        "LATITUDE": -35.290285,
+        "LONGITUDE": 148.876164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947908,
+          -35.325979
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ216",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325979, 148.947908)",
+        "LATITUDE": -35.325979,
+        "LONGITUDE": 148.947908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.072795,
+          -35.420223
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ503",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Anketell Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.420223, 149.072795)",
+        "LATITUDE": -35.420223,
+        "LONGITUDE": 149.072795
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947488,
+          -35.326078
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ454",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326078, 148.947488)",
+        "LATITUDE": -35.326078,
+        "LONGITUDE": 148.947488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946517,
+          -35.326019
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ221",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326019, 148.946517)",
+        "LATITUDE": -35.326019,
+        "LONGITUDE": 148.946517
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.950994,
+          -35.244356
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ252",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 1",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.244356, 148.950994)",
+        "LATITUDE": -35.244356,
+        "LONGITUDE": 148.950994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938837,
+          -35.327194
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ257",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.327194, 148.938837)",
+        "LATITUDE": -35.327194,
+        "LONGITUDE": 148.938837
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951811,
+          -35.249817
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ359",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.249817, 148.951811)",
+        "LATITUDE": -35.249817,
+        "LONGITUDE": 148.951811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948608,
+          -35.325306
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ326",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325306, 148.948608)",
+        "LATITUDE": -35.325306,
+        "LONGITUDE": 148.948608
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.126422,
+          -35.289921
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ520",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Henry Rolland Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.289921, 149.126422)",
+        "LATITUDE": -35.289921,
+        "LONGITUDE": 149.126422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.072762,
+          -35.420154
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ502",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Anketell Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.420154, 149.072762)",
+        "LATITUDE": -35.420154,
+        "LONGITUDE": 149.072762
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947031,
+          -35.325865
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ184",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325865, 148.947031)",
+        "LATITUDE": -35.325865,
+        "LONGITUDE": 148.947031
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951009,
+          -35.244833
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ174",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 2",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.244833, 148.951009)",
+        "LATITUDE": -35.244833,
+        "LONGITUDE": 148.951009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.126404,
+          -35.289883
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ519",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Henry Rolland Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.289883, 149.126404)",
+        "LATITUDE": -35.289883,
+        "LONGITUDE": 149.126404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940554,
+          -35.326648
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ256",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.326648, 148.940554)",
+        "LATITUDE": -35.326648,
+        "LONGITUDE": 148.940554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947274,
+          -35.326155
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ352",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326155, 148.947274)",
+        "LATITUDE": -35.326155,
+        "LONGITUDE": 148.947274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948613,
+          -35.325005
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ185",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325005, 148.948613)",
+        "LATITUDE": -35.325005,
+        "LONGITUDE": 148.948613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.24971,
+          -35.328583
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ160",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Molonglo Gorge Picnic Area",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.328583, 149.24971)",
+        "LATITUDE": -35.328583,
+        "LONGITUDE": 149.24971
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940113,
+          -35.326835
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ255",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.326835, 148.940113)",
+        "LATITUDE": -35.326835,
+        "LONGITUDE": 148.940113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.952741,
+          -35.248608
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ253",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.248608, 148.952741)",
+        "LATITUDE": -35.248608,
+        "LONGITUDE": 148.952741
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.950978,
+          -35.244834
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ173",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 2",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.244834, 148.950978)",
+        "LATITUDE": -35.244834,
+        "LONGITUDE": 148.950978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.955817,
+          -35.62875
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ504",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.62875, 148.955817)",
+        "LATITUDE": -35.62875,
+        "LONGITUDE": 148.955817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.05834,
+          -35.380251
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ522",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah Village",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.380251, 149.05834)",
+        "LATITUDE": -35.380251,
+        "LONGITUDE": 149.05834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.952065,
+          -35.249324
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ376",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.249324, 148.952065)",
+        "LATITUDE": -35.249324,
+        "LONGITUDE": 148.952065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.953331,
+          -35.246477
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ354",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra East",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.246477, 148.953331)",
+        "LATITUDE": -35.246477,
+        "LONGITUDE": 148.953331
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.046821,
+          -35.270822
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ521",
+        "LOCATION": "Whitlam",
+        "LOCATION DESCRIPTION": "Mcdonagh Crescent Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.270822, 149.046821)",
+        "LATITUDE": -35.270822,
+        "LONGITUDE": 149.046821
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951605,
+          -35.245402
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ176",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.245402, 148.951605)",
+        "LATITUDE": -35.245402,
+        "LONGITUDE": 148.951605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.95178,
+          -35.245856
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ211",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.245856, 148.95178)",
+        "LATITUDE": -35.245856,
+        "LONGITUDE": 148.95178
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948702,
+          -35.32521
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ269",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.32521, 148.948702)",
+        "LATITUDE": -35.32521,
+        "LONGITUDE": 148.948702
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.875873,
+          -35.289515
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ487",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.289515, 148.875873)",
+        "LATITUDE": -35.289515,
+        "LONGITUDE": 148.875873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946911,
+          -35.325916
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ263",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325916, 148.946911)",
+        "LATITUDE": -35.325916,
+        "LONGITUDE": 148.946911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.246546,
+          -35.322216
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ142",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Molonglo Gorge Nature Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.322216, 149.246546)",
+        "LATITUDE": -35.322216,
+        "LONGITUDE": 149.246546
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.121158,
+          -35.15523
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ506",
+        "LOCATION": "Moncrieff",
+        "LOCATION DESCRIPTION": "Bon Scott Crescent Crip Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.15523, 149.121158)",
+        "LATITUDE": -35.15523,
+        "LONGITUDE": 149.121158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939749,
+          -35.32622
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ262",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.32622, 148.939749)",
+        "LATITUDE": -35.32622,
+        "LONGITUDE": 148.939749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.139931,
+          -35.308015
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ477",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Bowen Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.308015, 149.139931)",
+        "LATITUDE": -35.308015,
+        "LONGITUDE": 149.139931
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939776,
+          -35.32704
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ260",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.32704, 148.939776)",
+        "LATITUDE": -35.32704,
+        "LONGITUDE": 148.939776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.945923,
+          -35.326278
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ214",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.326278, 148.945923)",
+        "LATITUDE": -35.326278,
+        "LONGITUDE": 148.945923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947456,
+          -35.326089
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ323",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326089, 148.947456)",
+        "LATITUDE": -35.326089,
+        "LONGITUDE": 148.947456
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.287211,
+          -35.288799
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ237",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Old Kowen Homestead",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.288799, 149.287211)",
+        "LATITUDE": -35.288799,
+        "LONGITUDE": 149.287211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947232,
+          -35.325808
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ266",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325808, 148.947232)",
+        "LATITUDE": -35.325808,
+        "LONGITUDE": 148.947232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.93887,
+          -35.327469
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ258",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.327469, 148.93887)",
+        "LATITUDE": -35.327469,
+        "LONGITUDE": 148.93887
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.137697,
+          -35.314874
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ125",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Telopea Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.314874, 149.137697)",
+        "LATITUDE": -35.314874,
+        "LONGITUDE": 149.137697
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.245355,
+          -35.322634
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ198",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Molonglo Gorge Nature Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.322634, 149.245355)",
+        "LATITUDE": -35.322634,
+        "LONGITUDE": 149.245355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947127,
+          -35.325829
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ267",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325829, 148.947127)",
+        "LATITUDE": -35.325829,
+        "LONGITUDE": 148.947127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951185,
+          -35.242743
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ315",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Swamp Creek",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.242743, 148.951185)",
+        "LATITUDE": -35.242743,
+        "LONGITUDE": 148.951185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.121081,
+          -35.155167
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ505",
+        "LOCATION": "Moncrieff",
+        "LOCATION DESCRIPTION": "Bon Scott Crescent Crip Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.155167, 149.121081)",
+        "LATITUDE": -35.155167,
+        "LONGITUDE": 149.121081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946764,
+          -35.325934
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ219",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325934, 148.946764)",
+        "LATITUDE": -35.325934,
+        "LONGITUDE": 148.946764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.951412,
+          -35.246097
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ209",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 3",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.246097, 148.951412)",
+        "LATITUDE": -35.246097,
+        "LONGITUDE": 148.951412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.946885,
+          -35.326191
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ220",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326191, 148.946885)",
+        "LATITUDE": -35.326191,
+        "LONGITUDE": 148.946885
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948255,
+          -35.325674
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ346",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.325674, 148.948255)",
+        "LATITUDE": -35.325674,
+        "LONGITUDE": 148.948255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.875925,
+          -35.289566
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ239",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.289566, 148.875925)",
+        "LATITUDE": -35.289566,
+        "LONGITUDE": 148.875925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.950989,
+          -35.244347
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ313",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Uriarra West Shelter 1",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.244347, 148.950989)",
+        "LATITUDE": -35.244347,
+        "LONGITUDE": 148.950989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947384,
+          -35.32577
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ186",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.32577, 148.947384)",
+        "LATITUDE": -35.32577,
+        "LONGITUDE": 148.947384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947753,
+          -35.326013
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ217",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326013, 148.947753)",
+        "LATITUDE": -35.326013,
+        "LONGITUDE": 148.947753
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.941978,
+          -35.322984
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ183",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.322984, 148.941978)",
+        "LATITUDE": -35.322984,
+        "LONGITUDE": 148.941978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988792,
+          -35.662885
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ461",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662885, 148.988792)",
+        "LATITUDE": -35.662885,
+        "LONGITUDE": 148.988792
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.923484,
+          -35.444347
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ331",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blewitts Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444347, 148.923484)",
+        "LATITUDE": -35.444347,
+        "LONGITUDE": 148.923484
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.974264,
+          -35.583036
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ141",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.583036, 148.974264)",
+        "LATITUDE": -35.583036,
+        "LONGITUDE": 148.974264
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929236,
+          -35.443367
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ448",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443367, 148.929236)",
+        "LATITUDE": -35.443367,
+        "LONGITUDE": 148.929236
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.261399,
+          -35.410105
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ180",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong North",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.410105, 149.261399)",
+        "LATITUDE": -35.410105,
+        "LONGITUDE": 149.261399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.923946,
+          -35.444324
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ230",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blewitts Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444324, 148.923946)",
+        "LATITUDE": -35.444324,
+        "LONGITUDE": 148.923946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.974072,
+          -35.582803
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ295",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.582803, 148.974072)",
+        "LATITUDE": -35.582803,
+        "LONGITUDE": 148.974072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010724,
+          -35.864774
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ480",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.864774, 149.010724)",
+        "LATITUDE": -35.864774,
+        "LONGITUDE": 149.010724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.942114,
+          -35.32283
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ353",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.32283, 148.942114)",
+        "LATITUDE": -35.32283,
+        "LONGITUDE": 148.942114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.924121,
+          -35.444424
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ225",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blewitts Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444424, 148.924121)",
+        "LATITUDE": -35.444424,
+        "LONGITUDE": 148.924121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.927892,
+          -35.440039
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ413",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.440039, 148.927892)",
+        "LATITUDE": -35.440039,
+        "LONGITUDE": 148.927892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929316,
+          -35.443399
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ154",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443399, 148.929316)",
+        "LATITUDE": -35.443399,
+        "LONGITUDE": 148.929316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988798,
+          -35.66299
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ463",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.66299, 148.988798)",
+        "LATITUDE": -35.66299,
+        "LONGITUDE": 148.988798
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988718,
+          -35.661703
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ468",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.661703, 148.988718)",
+        "LATITUDE": -35.661703,
+        "LONGITUDE": 148.988718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.941515,
+          -35.323472
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ264",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.323472, 148.941515)",
+        "LATITUDE": -35.323472,
+        "LONGITUDE": 148.941515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926476,
+          -35.44321
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ281",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Greens Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.44321, 148.926476)",
+        "LATITUDE": -35.44321,
+        "LONGITUDE": 148.926476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.930129,
+          -35.442681
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ449",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Discovery Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.442681, 148.930129)",
+        "LATITUDE": -35.442681,
+        "LONGITUDE": 148.930129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929269,
+          -35.443385
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ408",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443385, 148.929269)",
+        "LATITUDE": -35.443385,
+        "LONGITUDE": 148.929269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.942197,
+          -35.322757
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ206",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.322757, 148.942197)",
+        "LATITUDE": -35.322757,
+        "LONGITUDE": 148.942197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.828318,
+          -35.44251
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ344",
+        "LOCATION": "Cotter River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Bendora Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.44251, 148.828318)",
+        "LATITUDE": -35.44251,
+        "LONGITUDE": 148.828318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.82795,
+          -35.442386
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ152",
+        "LOCATION": "Cotter River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Bendora Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.442386, 148.82795)",
+        "LATITUDE": -35.442386,
+        "LONGITUDE": 148.82795
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926681,
+          -35.440621
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ412",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.440621, 148.926681)",
+        "LATITUDE": -35.440621,
+        "LONGITUDE": 148.926681
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.927188,
+          -35.440315
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ279",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.440315, 148.927188)",
+        "LATITUDE": -35.440315,
+        "LONGITUDE": 148.927188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.015321,
+          -35.868002
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ145",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mount Clear Horse Yards",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.868002, 149.015321)",
+        "LATITUDE": -35.868002,
+        "LONGITUDE": 149.015321
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929224,
+          -35.443821
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ405",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443821, 148.929224)",
+        "LATITUDE": -35.443821,
+        "LONGITUDE": 148.929224
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929281,
+          -35.44339
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ447",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.44339, 148.929281)",
+        "LATITUDE": -35.44339,
+        "LONGITUDE": 148.929281
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926005,
+          -35.443219
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ226",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Greens Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.443219, 148.926005)",
+        "LATITUDE": -35.443219,
+        "LONGITUDE": 148.926005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988476,
+          -35.66211
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ472",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.66211, 148.988476)",
+        "LATITUDE": -35.66211,
+        "LONGITUDE": 148.988476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988578,
+          -35.662465
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ465",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662465, 148.988578)",
+        "LATITUDE": -35.662465,
+        "LONGITUDE": 148.988578
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.076843,
+          -35.287042
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ452",
+        "LOCATION": "Molonglo Valley (Rural Dist.)",
+        "LOCATION DESCRIPTION": "National Arboretum Of Canberra",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.287042, 149.076843)",
+        "LATITUDE": -35.287042,
+        "LONGITUDE": 149.076843
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.974561,
+          -35.582929
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ362",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.582929, 148.974561)",
+        "LATITUDE": -35.582929,
+        "LONGITUDE": 148.974561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929418,
+          -35.444405
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ328",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444405, 148.929418)",
+        "LATITUDE": -35.444405,
+        "LONGITUDE": 148.929418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.998275,
+          -35.681491
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ168",
+        "LOCATION": "Booth (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Glendale Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.681491, 148.998275)",
+        "LATITUDE": -35.681491,
+        "LONGITUDE": 148.998275
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.258184,
+          -35.511472
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ303",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong South",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.511472, 149.258184)",
+        "LATITUDE": -35.511472,
+        "LONGITUDE": 149.258184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.997834,
+          -35.680713
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ282",
+        "LOCATION": "Booth (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Glendale Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.680713, 148.997834)",
+        "LATITUDE": -35.680713,
+        "LONGITUDE": 148.997834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.997976,
+          -35.680989
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ340",
+        "LOCATION": "Booth (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Glendale Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.680989, 148.997976)",
+        "LATITUDE": -35.680989,
+        "LONGITUDE": 148.997976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.92352,
+          -35.44409
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ307",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blewitts Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.44409, 148.92352)",
+        "LATITUDE": -35.44409,
+        "LONGITUDE": 148.92352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.090164,
+          -35.341663
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ436",
+        "LOCATION": "Phillip",
+        "LOCATION DESCRIPTION": "Edison District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.341663, 149.090164)",
+        "LATITUDE": -35.341663,
+        "LONGITUDE": 149.090164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.150988,
+          -35.279316
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ106",
+        "LOCATION": "Campbell",
+        "LOCATION DESCRIPTION": "Rememberance Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.279316, 149.150988)",
+        "LATITUDE": -35.279316,
+        "LONGITUDE": 149.150988
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.261817,
+          -35.410752
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ179",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong North - Shelter",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.410752, 149.261817)",
+        "LATITUDE": -35.410752,
+        "LONGITUDE": 149.261817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.928723,
+          -35.44442
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ276",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.44442, 148.928723)",
+        "LATITUDE": -35.44442,
+        "LONGITUDE": 148.928723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940972,
+          -35.32371
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ321",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.32371, 148.940972)",
+        "LATITUDE": -35.32371,
+        "LONGITUDE": 148.940972
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988788,
+          -35.66144
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ470",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.66144, 148.988788)",
+        "LATITUDE": -35.66144,
+        "LONGITUDE": 148.988788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.011151,
+          -35.864784
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ349",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.864784, 149.011151)",
+        "LATITUDE": -35.864784,
+        "LONGITUDE": 149.011151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010997,
+          -35.864493
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ166",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.864493, 149.010997)",
+        "LATITUDE": -35.864493,
+        "LONGITUDE": 149.010997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.260947,
+          -35.410449
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ292",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong North",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.410449, 149.260947)",
+        "LATITUDE": -35.410449,
+        "LONGITUDE": 149.260947
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06019,
+          -35.42755
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ247",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Central",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.42755, 149.06019)",
+        "LATITUDE": -35.42755,
+        "LONGITUDE": 149.06019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.065709,
+          -35.530783
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ189",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Nnp Vic",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.530783, 149.065709)",
+        "LATITUDE": -35.530783,
+        "LONGITUDE": 149.065709
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929248,
+          -35.443374
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ409",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443374, 148.929248)",
+        "LATITUDE": -35.443374,
+        "LONGITUDE": 148.929248
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.941452,
+          -35.323233
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ181",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.323233, 148.941452)",
+        "LATITUDE": -35.323233,
+        "LONGITUDE": 148.941452
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.257675,
+          -35.511813
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ236",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong South",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.511813, 149.257675)",
+        "LATITUDE": -35.511813,
+        "LONGITUDE": 149.257675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988532,
+          -35.662797
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ460",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662797, 148.988532)",
+        "LATITUDE": -35.662797,
+        "LONGITUDE": 148.988532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.828301,
+          -35.442303
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ224",
+        "LOCATION": "Cotter River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Bendora Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.442303, 148.828301)",
+        "LATITUDE": -35.442303,
+        "LONGITUDE": 148.828301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988388,
+          -35.662549
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ466",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662549, 148.988388)",
+        "LATITUDE": -35.662549,
+        "LONGITUDE": 148.988388
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.076812,
+          -35.287024
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ451",
+        "LOCATION": "Molonglo Valley (Rural Dist.)",
+        "LOCATION DESCRIPTION": "National Arboretum Of Canberra",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.287024, 149.076812)",
+        "LATITUDE": -35.287024,
+        "LONGITUDE": 149.076812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.94115,
+          -35.323015
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ366",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.323015, 148.94115)",
+        "LATITUDE": -35.323015,
+        "LONGITUDE": 148.94115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.941035,
+          -35.324165
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ259",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.324165, 148.941035)",
+        "LATITUDE": -35.324165,
+        "LONGITUDE": 148.941035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988552,
+          -35.662954
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ462",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662954, 148.988552)",
+        "LATITUDE": -35.662954,
+        "LONGITUDE": 148.988552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.25975,
+          -35.411459
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ419",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong North",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.411459, 149.25975)",
+        "LATITUDE": -35.411459,
+        "LONGITUDE": 149.25975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.989135,
+          -35.661556
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ471",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.661556, 148.989135)",
+        "LATITUDE": -35.661556,
+        "LONGITUDE": 148.989135
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010606,
+          -35.864617
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ231",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.864617, 149.010606)",
+        "LATITUDE": -35.864617,
+        "LONGITUDE": 149.010606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.150924,
+          -35.279963
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ105",
+        "LOCATION": "Campbell",
+        "LOCATION DESCRIPTION": "Rememberance Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.279963, 149.150924)",
+        "LATITUDE": -35.279963,
+        "LONGITUDE": 149.150924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.804514,
+          -35.387776
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ222",
+        "LOCATION": "Cotter River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Bulls Head Shelter",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.387776, 148.804514)",
+        "LATITUDE": -35.387776,
+        "LONGITUDE": 148.804514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929302,
+          -35.443395
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ446",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area - Shelter",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.443395, 148.929302)",
+        "LATITUDE": -35.443395,
+        "LONGITUDE": 148.929302
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.997729,
+          -35.680995
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ167",
+        "LOCATION": "Booth (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Glendale Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.680995, 148.997729)",
+        "LATITUDE": -35.680995,
+        "LONGITUDE": 148.997729
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9892,
+          -35.661711
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ469",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.661711, 148.9892)",
+        "LATITUDE": -35.661711,
+        "LONGITUDE": 148.9892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926226,
+          -35.441358
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ411",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.441358, 148.926226)",
+        "LATITUDE": -35.441358,
+        "LONGITUDE": 148.926226
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988836,
+          -35.664825
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ235",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Orroral Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.664825, 148.988836)",
+        "LATITUDE": -35.664825,
+        "LONGITUDE": 148.988836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.260678,
+          -35.410643
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ291",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong North",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.410643, 149.260678)",
+        "LATITUDE": -35.410643,
+        "LONGITUDE": 149.260678
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926497,
+          -35.440895
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ202",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.440895, 148.926497)",
+        "LATITUDE": -35.440895,
+        "LONGITUDE": 148.926497
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988793,
+          -35.662584
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ464",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662584, 148.988793)",
+        "LATITUDE": -35.662584,
+        "LONGITUDE": 148.988793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.92605,
+          -35.441743
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ410",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.441743, 148.92605)",
+        "LATITUDE": -35.441743,
+        "LONGITUDE": 148.92605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.928535,
+          -35.444602
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ300",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444602, 148.928535)",
+        "LATITUDE": -35.444602,
+        "LONGITUDE": 148.928535
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.919444,
+          -35.459077
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ415",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Flints Picnic Area",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.459077, 148.919444)",
+        "LATITUDE": -35.459077,
+        "LONGITUDE": 148.919444
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.92855,
+          -35.444528
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ450",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444528, 148.92855)",
+        "LATITUDE": -35.444528,
+        "LONGITUDE": 148.92855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988965,
+          -35.665194
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ234",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Orroral Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.665194, 148.988965)",
+        "LATITUDE": -35.665194,
+        "LONGITUDE": 148.988965
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938376,
+          -35.326293
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ159",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Thompsons Flat Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.326293, 148.938376)",
+        "LATITUDE": -35.326293,
+        "LONGITUDE": 148.938376
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.070346,
+          -35.532978
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ496",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Special Purpose",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.532978, 149.070346)",
+        "LATITUDE": -35.532978,
+        "LONGITUDE": 149.070346
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010409,
+          -35.864781
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ481",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mount Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.864781, 149.010409)",
+        "LATITUDE": -35.864781,
+        "LONGITUDE": 149.010409
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9891,
+          -35.664955
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ233",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Orroral Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.664955, 148.9891)",
+        "LATITUDE": -35.664955,
+        "LONGITUDE": 148.9891
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010922,
+          -35.865138
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ146",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.865138, 149.010922)",
+        "LATITUDE": -35.865138,
+        "LONGITUDE": 149.010922
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010594,
+          -35.865058
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ482",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mount Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.865058, 149.010594)",
+        "LATITUDE": -35.865058,
+        "LONGITUDE": 149.010594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929638,
+          -35.444374
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ414",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444374, 148.929638)",
+        "LATITUDE": -35.444374,
+        "LONGITUDE": 148.929638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.929726,
+          -35.444665
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ153",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.444665, 148.929726)",
+        "LATITUDE": -35.444665,
+        "LONGITUDE": 148.929726
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.975246,
+          -35.58365
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ140",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground - Apollo",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.58365, 148.975246)",
+        "LATITUDE": -35.58365,
+        "LONGITUDE": 148.975246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9412,
+          -35.323388
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ322",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.323388, 148.9412)",
+        "LATITUDE": -35.323388,
+        "LONGITUDE": 148.9412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926184,
+          -35.442968
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ280",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Greens Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.442968, 148.926184)",
+        "LATITUDE": -35.442968,
+        "LONGITUDE": 148.926184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988251,
+          -35.662031
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ467",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park, Orroral Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.662031, 148.988251)",
+        "LATITUDE": -35.662031,
+        "LONGITUDE": 148.988251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.974297,
+          -35.583023
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ139",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.583023, 148.974297)",
+        "LATITUDE": -35.583023,
+        "LONGITUDE": 148.974297
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.926942,
+          -35.440203
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ278",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Webbs Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.440203, 148.926942)",
+        "LATITUDE": -35.440203,
+        "LONGITUDE": 148.926942
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.010804,
+          -35.865319
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ147",
+        "LOCATION": "Mount Clear (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Mt Clear Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.865319, 149.010804)",
+        "LATITUDE": -35.865319,
+        "LONGITUDE": 149.010804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.258419,
+          -35.430255
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ418",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong Boat Ramp",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.430255, 149.258419)",
+        "LATITUDE": -35.430255,
+        "LONGITUDE": 149.258419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.928827,
+          -35.44379
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ406",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sheedys Picnic Area",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.44379, 148.928827)",
+        "LATITUDE": -35.44379,
+        "LONGITUDE": 148.928827
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.97545,
+          -35.583074
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ334",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground - Mercury",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.583074, 148.97545)",
+        "LATITUDE": -35.583074,
+        "LONGITUDE": 148.97545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130774,
+          -35.178801
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ497",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.178801, 149.130774)",
+        "LATITUDE": -35.178801,
+        "LONGITUDE": 149.130774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.063247,
+          -35.225626
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ33",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Lake Ginninderra Western Foreshores",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.225626, 149.063247)",
+        "LATITUDE": -35.225626,
+        "LONGITUDE": 149.063247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.057338,
+          -35.360683
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ6",
+        "LOCATION": "Fisher",
+        "LOCATION DESCRIPTION": "Araluen Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.360683, 149.057338)",
+        "LATITUDE": -35.360683,
+        "LONGITUDE": 149.057338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.258909,
+          -35.497275
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ288",
+        "LOCATION": "Googong (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Googong - Tin Hut",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.497275, 149.258909)",
+        "LATITUDE": -35.497275,
+        "LONGITUDE": 149.258909
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.071927,
+          -35.297903
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ394",
+        "LOCATION": "Canberra Central (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Lady Denman Drive Road Verge",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.297903, 149.071927)",
+        "LATITUDE": -35.297903,
+        "LONGITUDE": 149.071927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.804498,
+          -35.386788
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ371",
+        "LOCATION": "New South Wales",
+        "LOCATION DESCRIPTION": "Bulls Head Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.386788, 148.804498)",
+        "LATITUDE": -35.386788,
+        "LONGITUDE": 148.804498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.804038,
+          -35.387667
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ339",
+        "LOCATION": "New South Wales",
+        "LOCATION DESCRIPTION": "Bulls Head Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.387667, 148.804038)",
+        "LATITUDE": -35.387667,
+        "LONGITUDE": 148.804038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.085572,
+          -35.211746
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ50",
+        "LOCATION": "Belconnen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Palmerville Heritage Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.211746, 149.085572)",
+        "LATITUDE": -35.211746,
+        "LONGITUDE": 149.085572
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.948537,
+          -35.325396
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ417",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.325396, 148.948537)",
+        "LATITUDE": -35.325396,
+        "LONGITUDE": 148.948537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.804459,
+          -35.387149
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ338",
+        "LOCATION": "New South Wales",
+        "LOCATION DESCRIPTION": "Bulls Head Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.387149, 148.804459)",
+        "LATITUDE": -35.387149,
+        "LONGITUDE": 148.804459
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.804313,
+          -35.387256
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ305",
+        "LOCATION": "New South Wales",
+        "LOCATION DESCRIPTION": "Bulls Head Picnic Area",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.387256, 148.804313)",
+        "LATITUDE": -35.387256,
+        "LONGITUDE": 148.804313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.875879,
+          -35.289299
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ499",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.289299, 148.875879)",
+        "LATITUDE": -35.289299,
+        "LONGITUDE": 148.875879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.892002,
+          -35.273249
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ501",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Sherwood Homestead",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.273249, 148.892002)",
+        "LATITUDE": -35.273249,
+        "LONGITUDE": 148.892002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.876109,
+          -35.289676
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ488",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.289676, 148.876109)",
+        "LATITUDE": -35.289676,
+        "LONGITUDE": 148.876109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.875874,
+          -35.289079
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ498",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.289079, 148.875874)",
+        "LATITUDE": -35.289079,
+        "LONGITUDE": 148.875874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.875975,
+          -35.290036
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ500",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Blue Range Hut",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.290036, 148.875975)",
+        "LATITUDE": -35.290036,
+        "LONGITUDE": 148.875975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.124418,
+          -35.286194
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ442",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Acton Park District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.286194, 149.124418)",
+        "LATITUDE": -35.286194,
+        "LONGITUDE": 149.124418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.124752,
+          -35.28631
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ441",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Acton Park District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.28631, 149.124752)",
+        "LATITUDE": -35.28631,
+        "LONGITUDE": 149.124752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.953465,
+          -35.319841
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ385",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319841, 148.953465)",
+        "LATITUDE": -35.319841,
+        "LONGITUDE": 148.953465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.954079,
+          -35.319802
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ382",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319802, 148.954079)",
+        "LATITUDE": -35.319802,
+        "LONGITUDE": 148.954079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.954339,
+          -35.319801
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ320",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319801, 148.954339)",
+        "LATITUDE": -35.319801,
+        "LONGITUDE": 148.954339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.954151,
+          -35.319782
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ381",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319782, 148.954151)",
+        "LATITUDE": -35.319782,
+        "LONGITUDE": 148.954151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.953385,
+          -35.319832
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ268",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319832, 148.953385)",
+        "LATITUDE": -35.319832,
+        "LONGITUDE": 148.953385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.101175,
+          -35.292432
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ485",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Black Mountain Peninsula District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.292432, 149.101175)",
+        "LATITUDE": -35.292432,
+        "LONGITUDE": 149.101175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.100009,
+          -35.291644
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ23",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Black Mountain Peninsula District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.291644, 149.100009)",
+        "LATITUDE": -35.291644,
+        "LONGITUDE": 149.100009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.93995,
+          -35.480865
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ299",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480865, 148.93995)",
+        "LATITUDE": -35.480865,
+        "LONGITUDE": 148.93995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.934278,
+          -35.487914
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ473",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Gibraltar Falls Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.487914, 148.934278)",
+        "LATITUDE": -35.487914,
+        "LONGITUDE": 148.934278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939842,
+          -35.480761
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ423",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480761, 148.939842)",
+        "LATITUDE": -35.480761,
+        "LONGITUDE": 148.939842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938498,
+          -35.327317
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ516",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.327317, 148.938498)",
+        "LATITUDE": -35.327317,
+        "LONGITUDE": 148.938498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938593,
+          -35.480617
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ271",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.480617, 148.938593)",
+        "LATITUDE": -35.480617,
+        "LONGITUDE": 148.938593
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.954674,
+          -35.319882
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ200",
+        "LOCATION": "Stromlo (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Reserve - Casuarina Sands",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.319882, 148.954674)",
+        "LATITUDE": -35.319882,
+        "LONGITUDE": 148.954674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938339,
+          -35.480779
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ196",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480779, 148.938339)",
+        "LATITUDE": -35.480779,
+        "LONGITUDE": 148.938339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938879,
+          -35.480831
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ422",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480831, 148.938879)",
+        "LATITUDE": -35.480831,
+        "LONGITUDE": 148.938879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938368,
+          -35.481005
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ195",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481005, 148.938368)",
+        "LATITUDE": -35.481005,
+        "LONGITUDE": 148.938368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939181,
+          -35.480842
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ420",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.480842, 148.939181)",
+        "LATITUDE": -35.480842,
+        "LONGITUDE": 148.939181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.950939,
+          -35.243646
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ311",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Swamp Creek",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.243646, 148.950939)",
+        "LATITUDE": -35.243646,
+        "LONGITUDE": 148.950939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.950911,
+          -35.243645
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ314",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Swamp Creek",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.243645, 148.950911)",
+        "LATITUDE": -35.243645,
+        "LONGITUDE": 148.950911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.061551,
+          -35.427443
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ518",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Reserve",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.427443, 149.061551)",
+        "LATITUDE": -35.427443,
+        "LONGITUDE": 149.061551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.061549,
+          -35.427453
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ517",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Cetral",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.427453, 149.061549)",
+        "LATITUDE": -35.427453,
+        "LONGITUDE": 149.061549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.101337,
+          -35.287142
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ21",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Black Mountain Peninsula District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.287142, 149.101337)",
+        "LATITUDE": -35.287142,
+        "LONGITUDE": 149.101337
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.101148,
+          -35.292416
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ424",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Black Mountain Peninsula District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.292416, 149.101148)",
+        "LATITUDE": -35.292416,
+        "LONGITUDE": 149.101148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938512,
+          -35.327332
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ515",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.327332, 148.938512)",
+        "LATITUDE": -35.327332,
+        "LONGITUDE": 148.938512
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.952429,
+          -35.363901
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ148",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Murrays Corner",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.363901, 148.952429)",
+        "LATITUDE": -35.363901,
+        "LONGITUDE": 148.952429
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940782,
+          -35.480862
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ270",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480862, 148.940782)",
+        "LATITUDE": -35.480862,
+        "LONGITUDE": 148.940782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939647,
+          -35.481169
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ341",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481169, 148.939647)",
+        "LATITUDE": -35.481169,
+        "LONGITUDE": 148.939647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.941824,
+          -35.322804
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ182",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "The Cotter Avenue",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.322804, 148.941824)",
+        "LATITUDE": -35.322804,
+        "LONGITUDE": 148.941824
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.931278,
+          -35.377824
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ513",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Tidbinbilla Hut Pierces Creek Pines",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.377824, 148.931278)",
+        "LATITUDE": -35.377824,
+        "LONGITUDE": 148.931278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.939596,
+          -35.481283
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ342",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481283, 148.939596)",
+        "LATITUDE": -35.481283,
+        "LONGITUDE": 148.939596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938774,
+          -35.481102
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ421",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481102, 148.938774)",
+        "LATITUDE": -35.481102,
+        "LONGITUDE": 148.938774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940249,
+          -35.481066
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ294",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481066, 148.940249)",
+        "LATITUDE": -35.481066,
+        "LONGITUDE": 148.940249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.940357,
+          -35.481086
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ297",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481086, 148.940357)",
+        "LATITUDE": -35.481086,
+        "LONGITUDE": 148.940357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.94005,
+          -35.481069
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ298",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.481069, 148.94005)",
+        "LATITUDE": -35.481069,
+        "LONGITUDE": 148.94005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.93822,
+          -35.480897
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ343",
+        "LOCATION": "Paddys River (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Woods Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.480897, 148.93822)",
+        "LATITUDE": -35.480897,
+        "LONGITUDE": 148.93822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.091686,
+          -35.34112
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ514",
+        "LOCATION": "Phillip",
+        "LOCATION DESCRIPTION": "Edison District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.34112, 149.091686)",
+        "LATITUDE": -35.34112,
+        "LONGITUDE": 149.091686
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.938638,
+          -35.327466
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ157",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Bend",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.327466, 148.938638)",
+        "LATITUDE": -35.327466,
+        "LONGITUDE": 148.938638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988857,
+          -35.661977
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ459",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park Orroral Campground",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.661977, 148.988857)",
+        "LATITUDE": -35.661977,
+        "LONGITUDE": 148.988857
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.988836,
+          -35.661987
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ416",
+        "LOCATION": "Rendezvous Creek (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Orroral Campground",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.661987, 148.988836)",
+        "LATITUDE": -35.661987,
+        "LONGITUDE": 148.988836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.975994,
+          -35.582893
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ507",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.582893, 148.975994)",
+        "LATITUDE": -35.582893,
+        "LONGITUDE": 148.975994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.974203,
+          -35.582612
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ509",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.582612, 148.974203)",
+        "LATITUDE": -35.582612,
+        "LONGITUDE": 148.974203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.97475,
+          -35.58285
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ290",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.58285, 148.97475)",
+        "LATITUDE": -35.58285,
+        "LONGITUDE": 148.97475
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.97582,
+          -35.583116
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ508",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Namadgi National Park",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.583116, 148.97582)",
+        "LATITUDE": -35.583116,
+        "LONGITUDE": 148.97582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9743,
+          -35.582746
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ364",
+        "LOCATION": "Tennent (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Honeysuckle Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.582746, 148.9743)",
+        "LATITUDE": -35.582746,
+        "LONGITUDE": 148.9743
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947052,
+          -35.32615
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ510",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.32615, 148.947052)",
+        "LATITUDE": -35.32615,
+        "LONGITUDE": 148.947052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.947145,
+          -35.32612
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ453",
+        "LOCATION": "Coree (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Cotter Campground",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.32612, 148.947145)",
+        "LATITUDE": -35.32612,
+        "LONGITUDE": 148.947145
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.246597,
+          -35.322245
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ512",
+        "LOCATION": "Kowen (Rural Dist.)",
+        "LOCATION DESCRIPTION": "Molonglo Gorge Nature Reserve",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.322245, 149.246597)",
+        "LATITUDE": -35.322245,
+        "LONGITUDE": 149.246597
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.071665,
+          -35.426285
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ135",
+        "LOCATION": "Bonython",
+        "LOCATION DESCRIPTION": "Burgoyne Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.426285, 149.071665)",
+        "LATITUDE": -35.426285,
+        "LONGITUDE": 149.071665
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.148979,
+          -35.160474
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ404",
+        "LOCATION": "Forde",
+        "LOCATION DESCRIPTION": "Volpato Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.160474, 149.148979)",
+        "LATITUDE": -35.160474,
+        "LONGITUDE": 149.148979
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.128442,
+          -35.269681
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ12",
+        "LOCATION": "Turner",
+        "LOCATION DESCRIPTION": "Haig Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.269681, 149.128442)",
+        "LATITUDE": -35.269681,
+        "LONGITUDE": 149.128442
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.062029,
+          -35.392172
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ434",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.392172, 149.062029)",
+        "LATITUDE": -35.392172,
+        "LONGITUDE": 149.062029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.066173,
+          -35.432464
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ296",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island South",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.432464, 149.066173)",
+        "LATITUDE": -35.432464,
+        "LONGITUDE": 149.066173
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.137298,
+          -35.315637
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ70",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Telopea Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.315637, 149.137298)",
+        "LATITUDE": -35.315637,
+        "LONGITUDE": 149.137298
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.066863,
+          -35.432916
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ287",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island South",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.432916, 149.066863)",
+        "LATITUDE": -35.432916,
+        "LONGITUDE": 149.066863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.135474,
+          -35.173872
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ392",
+        "LOCATION": "Amaroo",
+        "LOCATION DESCRIPTION": "Bizant Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.173872, 149.135474)",
+        "LATITUDE": -35.173872,
+        "LONGITUDE": 149.135474
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069825,
+          -35.171753
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ43",
+        "LOCATION": "Hall",
+        "LOCATION DESCRIPTION": "Gladstone Street Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.171753, 149.069825)",
+        "LATITUDE": -35.171753,
+        "LONGITUDE": 149.069825
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.063448,
+          -35.227465
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ30",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Lake Ginninderra Western Foreshores",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.227465, 149.063448)",
+        "LATITUDE": -35.227465,
+        "LONGITUDE": 149.063448
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.084727,
+          -35.456044
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ66",
+        "LOCATION": "Gordon",
+        "LOCATION DESCRIPTION": "Point Hut District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.456044, 149.084727)",
+        "LATITUDE": -35.456044,
+        "LONGITUDE": 149.084727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.121057,
+          -35.411304
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ95",
+        "LOCATION": "Fadden",
+        "LOCATION DESCRIPTION": "Fadden Pines District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.411304, 149.121057)",
+        "LATITUDE": -35.411304,
+        "LONGITUDE": 149.121057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.167366,
+          -35.304593
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ20",
+        "LOCATION": "Campbell",
+        "LOCATION DESCRIPTION": "Molonglo Reach District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.304593, 149.167366)",
+        "LATITUDE": -35.304593,
+        "LONGITUDE": 149.167366
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.120004,
+          -35.410421
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ96",
+        "LOCATION": "Fadden",
+        "LOCATION DESCRIPTION": "Fadden Pines District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.410421, 149.120004)",
+        "LATITUDE": -35.410421,
+        "LONGITUDE": 149.120004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.090334,
+          -35.291834
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ494",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.291834, 149.090334)",
+        "LATITUDE": -35.291834,
+        "LONGITUDE": 149.090334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.136694,
+          -35.282415
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ16",
+        "LOCATION": "City",
+        "LOCATION DESCRIPTION": "Glebe Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.282415, 149.136694)",
+        "LATITUDE": -35.282415,
+        "LONGITUDE": 149.136694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.060722,
+          -35.42745
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ248",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Central",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.42745, 149.060722)",
+        "LATITUDE": -35.42745,
+        "LONGITUDE": 149.060722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.037221,
+          -35.324398
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ431",
+        "LOCATION": "Wright",
+        "LOCATION DESCRIPTION": "Dot Butler Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.324398, 149.037221)",
+        "LATITUDE": -35.324398,
+        "LONGITUDE": 149.037221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.065091,
+          -35.4099
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ435",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Tuggeranong Town Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.4099, 149.065091)",
+        "LATITUDE": -35.4099,
+        "LONGITUDE": 149.065091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.120651,
+          -35.298678
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ428",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Lennox Gardens",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.298678, 149.120651)",
+        "LATITUDE": -35.298678,
+        "LONGITUDE": 149.120651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.059826,
+          -35.427261
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ274",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Central",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.427261, 149.059826)",
+        "LATITUDE": -35.427261,
+        "LONGITUDE": 149.059826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.120279,
+          -35.298464
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ429",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Lennox Gardens",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.298464, 149.120279)",
+        "LATITUDE": -35.298464,
+        "LONGITUDE": 149.120279
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.120282,
+          -35.411668
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ98",
+        "LOCATION": "Fadden",
+        "LOCATION DESCRIPTION": "Fadden Pines District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.411668, 149.120282)",
+        "LATITUDE": -35.411668,
+        "LONGITUDE": 149.120282
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069822,
+          -35.509138
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ445",
+        "LOCATION": "Tharwa",
+        "LOCATION DESCRIPTION": "Tharwa Bridge Reserve",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.509138, 149.069822)",
+        "LATITUDE": -35.509138,
+        "LONGITUDE": 149.069822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.103594,
+          -35.299422
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ474",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Yarralumla Bay District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.299422, 149.103594)",
+        "LATITUDE": -35.299422,
+        "LONGITUDE": 149.103594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.051903,
+          -35.383169
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ384",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Boddington Crescent Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.383169, 149.051903)",
+        "LATITUDE": -35.383169,
+        "LONGITUDE": 149.051903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.071294,
+          -35.385594
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ383",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Summerland Circuit Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.385594, 149.071294)",
+        "LATITUDE": -35.385594,
+        "LONGITUDE": 149.071294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.073274,
+          -35.233758
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ393",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "John Knight Memorial Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.233758, 149.073274)",
+        "LATITUDE": -35.233758,
+        "LONGITUDE": 149.073274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.142377,
+          -35.269006
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ14",
+        "LOCATION": "Ainslie",
+        "LOCATION DESCRIPTION": "Corroboree Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.269006, 149.142377)",
+        "LATITUDE": -35.269006,
+        "LONGITUDE": 149.142377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.144966,
+          -35.172395
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ391",
+        "LOCATION": "Forde",
+        "LOCATION DESCRIPTION": "Tom Nicholas Crescent Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.172395, 149.144966)",
+        "LATITUDE": -35.172395,
+        "LONGITUDE": 149.144966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07426,
+          -35.237871
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ89",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "John Knight Memorial Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.237871, 149.07426)",
+        "LATITUDE": -35.237871,
+        "LONGITUDE": 149.07426
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.076248,
+          -35.352855
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ390",
+        "LOCATION": "Chifley",
+        "LOCATION DESCRIPTION": "Shann Place Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.352855, 149.076248)",
+        "LATITUDE": -35.352855,
+        "LONGITUDE": 149.076248
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.062164,
+          -35.391864
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ432",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.391864, 149.062164)",
+        "LATITUDE": -35.391864,
+        "LONGITUDE": 149.062164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.146596,
+          -35.168163
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ398",
+        "LOCATION": "Forde",
+        "LOCATION DESCRIPTION": "Pahlman Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.168163, 149.146596)",
+        "LATITUDE": -35.168163,
+        "LONGITUDE": 149.146596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069421,
+          -35.225813
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ440",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Ginninderra Peninsula District Park West",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.225813, 149.069421)",
+        "LATITUDE": -35.225813,
+        "LONGITUDE": 149.069421
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.227464,
+          -35.341674
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ403",
+        "LOCATION": "Oaks Estate",
+        "LOCATION DESCRIPTION": "River Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.341674, 149.227464)",
+        "LATITUDE": -35.341674,
+        "LONGITUDE": 149.227464
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130643,
+          -35.179366
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ53",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.179366, 149.130643)",
+        "LATITUDE": -35.179366,
+        "LONGITUDE": 149.130643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.092152,
+          -35.290275
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ85",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.290275, 149.092152)",
+        "LATITUDE": -35.290275,
+        "LONGITUDE": 149.092152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069711,
+          -35.172104
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ42",
+        "LOCATION": "Hall",
+        "LOCATION DESCRIPTION": "Gladstone Street Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.172104, 149.069711)",
+        "LATITUDE": -35.172104,
+        "LONGITUDE": 149.069711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.062231,
+          -35.427589
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ155",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Central",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.427589, 149.062231)",
+        "LATITUDE": -35.427589,
+        "LONGITUDE": 149.062231
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.064734,
+          -35.410761
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ65",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Tuggeranong Town Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.410761, 149.064734)",
+        "LATITUDE": -35.410761,
+        "LONGITUDE": 149.064734
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.142476,
+          -35.159347
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ401",
+        "LOCATION": "Bonner",
+        "LOCATION DESCRIPTION": "Burnum Burnum Close Neighborhood Oval",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.159347, 149.142476)",
+        "LATITUDE": -35.159347,
+        "LONGITUDE": 149.142476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.071507,
+          -35.40518
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ104",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Lake Tuggeranong District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.40518, 149.071507)",
+        "LATITUDE": -35.40518,
+        "LONGITUDE": 149.071507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.147774,
+          -35.200146
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ402",
+        "LOCATION": "Franklin",
+        "LOCATION DESCRIPTION": "Clare Burton Circuit Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.200146, 149.147774)",
+        "LATITUDE": -35.200146,
+        "LONGITUDE": 149.147774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1372,
+          -35.315552
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ71",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Telopea Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.315552, 149.1372)",
+        "LATITUDE": -35.315552,
+        "LONGITUDE": 149.1372
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133249,
+          -35.264829
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ7",
+        "LOCATION": "Braddon",
+        "LOCATION DESCRIPTION": "Lowanna Street - Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.264829, 149.133249)",
+        "LATITUDE": -35.264829,
+        "LONGITUDE": 149.133249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133979,
+          -35.264197
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ8",
+        "LOCATION": "Braddon",
+        "LOCATION DESCRIPTION": "Lowanna Street - Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.264197, 149.133979)",
+        "LATITUDE": -35.264197,
+        "LONGITUDE": 149.133979
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.110101,
+          -35.191971
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ99",
+        "LOCATION": "Nicholls",
+        "LOCATION DESCRIPTION": "Candlebark Close Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.191971, 149.110101)",
+        "LATITUDE": -35.191971,
+        "LONGITUDE": 149.110101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069794,
+          -35.408426
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ102",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Lake Tuggeranong District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.408426, 149.069794)",
+        "LATITUDE": -35.408426,
+        "LONGITUDE": 149.069794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.143561,
+          -35.197073
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ491",
+        "LOCATION": "Franklin",
+        "LOCATION DESCRIPTION": "Kilmeny Close Crip Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.197073, 149.143561)",
+        "LATITUDE": -35.197073,
+        "LONGITUDE": 149.143561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.060463,
+          -35.388597
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ61",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah District Park Woolshed",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.388597, 149.060463)",
+        "LATITUDE": -35.388597,
+        "LONGITUDE": 149.060463
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.144996,
+          -35.176041
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ396",
+        "LOCATION": "Forde",
+        "LOCATION DESCRIPTION": "Bruce Dittmar Street Central Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.176041, 149.144996)",
+        "LATITUDE": -35.176041,
+        "LONGITUDE": 149.144996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.084313,
+          -35.455778
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ123",
+        "LOCATION": "Gordon",
+        "LOCATION DESCRIPTION": "Point Hut District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.455778, 149.084313)",
+        "LATITUDE": -35.455778,
+        "LONGITUDE": 149.084313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069598,
+          -35.225735
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ439",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Ginninderra Peninsula District Park West",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.225735, 149.069598)",
+        "LATITUDE": -35.225735,
+        "LONGITUDE": 149.069598
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.121803,
+          -35.29848
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ430",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Lennox Gardens",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.29848, 149.121803)",
+        "LATITUDE": -35.29848,
+        "LONGITUDE": 149.121803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.097284,
+          -35.166509
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ397",
+        "LOCATION": "Casey",
+        "LOCATION DESCRIPTION": "Yeend Avenue Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.166509, 149.097284)",
+        "LATITUDE": -35.166509,
+        "LONGITUDE": 149.097284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.17469,
+          -35.30478
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ127",
+        "LOCATION": "Fyshwick",
+        "LOCATION DESCRIPTION": "Molonglo Reach Water Ski",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.30478, 149.17469)",
+        "LATITUDE": -35.30478,
+        "LONGITUDE": 149.17469
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.071265,
+          -35.429604
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ134",
+        "LOCATION": "Bonython",
+        "LOCATION DESCRIPTION": "Derrington Crescent Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.429604, 149.071265)",
+        "LATITUDE": -35.429604,
+        "LONGITUDE": 149.071265
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.083915,
+          -35.456559
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ133",
+        "LOCATION": "Gordon",
+        "LOCATION DESCRIPTION": "Point Hut District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.456559, 149.083915)",
+        "LATITUDE": -35.456559,
+        "LONGITUDE": 149.083915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.074029,
+          -35.229117
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ438",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Ginninderra Peninsula District Park East",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.229117, 149.074029)",
+        "LATITUDE": -35.229117,
+        "LONGITUDE": 149.074029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.062025,
+          -35.259309
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ386",
+        "LOCATION": "Cook",
+        "LOCATION DESCRIPTION": "Templeton Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.259309, 149.062025)",
+        "LATITUDE": -35.259309,
+        "LONGITUDE": 149.062025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06089,
+          -35.427722
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ249",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Pine Island Central",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.427722, 149.06089)",
+        "LATITUDE": -35.427722,
+        "LONGITUDE": 149.06089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.102208,
+          -35.201412
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ400",
+        "LOCATION": "Crace",
+        "LOCATION DESCRIPTION": "Narden Street Community Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.201412, 149.102208)",
+        "LATITUDE": -35.201412,
+        "LONGITUDE": 149.102208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06213,
+          -35.392047
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ433",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.392047, 149.06213)",
+        "LATITUDE": -35.392047,
+        "LONGITUDE": 149.06213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.063379,
+          -35.227283
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ31",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Lake Ginninderra Western Foreshores",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.227283, 149.063379)",
+        "LATITUDE": -35.227283,
+        "LONGITUDE": 149.063379
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130882,
+          -35.179247
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ54",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.179247, 149.130882)",
+        "LATITUDE": -35.179247,
+        "LONGITUDE": 149.130882
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130325,
+          -35.179115
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ476",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.179115, 149.130325)",
+        "LATITUDE": -35.179115,
+        "LONGITUDE": 149.130325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.063187,
+          -35.227238
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ32",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Lake Ginninderra Western Foreshores",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.227238, 149.063187)",
+        "LATITUDE": -35.227238,
+        "LONGITUDE": 149.063187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.074196,
+          -35.235226
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ132",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "John Knight Memorial Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.235226, 149.074196)",
+        "LATITUDE": -35.235226,
+        "LONGITUDE": 149.074196
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.016913,
+          -35.191165
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ130",
+        "LOCATION": "Dunlop",
+        "LOCATION DESCRIPTION": "James Harrison Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.191165, 149.016913)",
+        "LATITUDE": -35.191165,
+        "LONGITUDE": 149.016913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.031092,
+          -35.211658
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ44",
+        "LOCATION": "Latham",
+        "LOCATION DESCRIPTION": "Umbagong District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.211658, 149.031092)",
+        "LATITUDE": -35.211658,
+        "LONGITUDE": 149.031092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07057,
+          -35.40722
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ103",
+        "LOCATION": "Greenway",
+        "LOCATION DESCRIPTION": "Lake Tuggeranong District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.40722, 149.07057)",
+        "LATITUDE": -35.40722,
+        "LONGITUDE": 149.07057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.119395,
+          -35.410913
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ94",
+        "LOCATION": "Fadden",
+        "LOCATION DESCRIPTION": "Fadden Pines District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.410913, 149.119395)",
+        "LATITUDE": -35.410913,
+        "LONGITUDE": 149.119395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.136322,
+          -35.161252
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ479",
+        "LOCATION": "Bonner",
+        "LOCATION DESCRIPTION": "Fernando Street Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.161252, 149.136322)",
+        "LATITUDE": -35.161252,
+        "LONGITUDE": 149.136322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.060559,
+          -35.388653
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ60",
+        "LOCATION": "Kambah",
+        "LOCATION DESCRIPTION": "Kambah District Park Woolshed",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.388653, 149.060559)",
+        "LATITUDE": -35.388653,
+        "LONGITUDE": 149.060559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.095155,
+          -35.295686
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ80",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.295686, 149.095155)",
+        "LATITUDE": -35.295686,
+        "LONGITUDE": 149.095155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.038192,
+          -35.347715
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ388",
+        "LOCATION": "Rivett",
+        "LOCATION DESCRIPTION": "Bangalay Crescent Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.347715, 149.038192)",
+        "LATITUDE": -35.347715,
+        "LONGITUDE": 149.038192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.074211,
+          -35.229031
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ437",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Ginninderra Peninsula District Park East",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.229031, 149.074211)",
+        "LATITUDE": -35.229031,
+        "LONGITUDE": 149.074211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.099613,
+          -35.292266
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ495",
+        "LOCATION": "Acton",
+        "LOCATION DESCRIPTION": "Black Mountain Peninsula District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.292266, 149.099613)",
+        "LATITUDE": -35.292266,
+        "LONGITUDE": 149.099613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.174677,
+          -35.30499
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ128",
+        "LOCATION": "Fyshwick",
+        "LOCATION DESCRIPTION": "Molonglo Reach Water Ski",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.30499, 149.174677)",
+        "LATITUDE": -35.30499,
+        "LONGITUDE": 149.174677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130617,
+          -35.179329
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ56",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.179329, 149.130617)",
+        "LATITUDE": -35.179329,
+        "LONGITUDE": 149.130617
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.126278,
+          -35.185061
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ483",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Gungahlin Sportsground",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.185061, 149.126278)",
+        "LATITUDE": -35.185061,
+        "LONGITUDE": 149.126278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.054707,
+          -35.337187
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ387",
+        "LOCATION": "Weston",
+        "LOCATION DESCRIPTION": "Dillon Close Pedestrian Parkland",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.337187, 149.054707)",
+        "LATITUDE": -35.337187,
+        "LONGITUDE": 149.054707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.137811,
+          -35.314876
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ73",
+        "LOCATION": "Barton",
+        "LOCATION DESCRIPTION": "Telopea Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.314876, 149.137811)",
+        "LATITUDE": -35.314876,
+        "LONGITUDE": 149.137811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.130852,
+          -35.179209
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ55",
+        "LOCATION": "Gungahlin",
+        "LOCATION DESCRIPTION": "Yerrabi District Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.179209, 149.130852)",
+        "LATITUDE": -35.179209,
+        "LONGITUDE": 149.130852
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.093399,
+          -35.293718
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ426",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.293718, 149.093399)",
+        "LATITUDE": -35.293718,
+        "LONGITUDE": 149.093399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11062,
+          -35.298719
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ76",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Alexandrina Drive - Pedestrian Parkland",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.298719, 149.11062)",
+        "LATITUDE": -35.298719,
+        "LONGITUDE": 149.11062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.069131,
+          -35.224587
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ475",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Ginninderra Peninsula District Park West",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.224587, 149.069131)",
+        "LATITUDE": -35.224587,
+        "LONGITUDE": 149.069131
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.15792,
+          -35.198422
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ131",
+        "LOCATION": "Harrison",
+        "LOCATION DESCRIPTION": "Tanami Street Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.198422, 149.15792)",
+        "LATITUDE": -35.198422,
+        "LONGITUDE": 149.15792
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.093201,
+          -35.292516
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ427",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.292516, 149.093201)",
+        "LATITUDE": -35.292516,
+        "LONGITUDE": 149.093201
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.13634,
+          -35.281891
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ17",
+        "LOCATION": "City",
+        "LOCATION DESCRIPTION": "Glebe Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.281891, 149.13634)",
+        "LATITUDE": -35.281891,
+        "LONGITUDE": 149.13634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.073355,
+          -35.234384
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ443",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "John Knight Memorial Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.234384, 149.073355)",
+        "LATITUDE": -35.234384,
+        "LONGITUDE": 149.073355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.136387,
+          -35.283536
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ15",
+        "LOCATION": "City",
+        "LOCATION DESCRIPTION": "Glebe Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.283536, 149.136387)",
+        "LATITUDE": -35.283536,
+        "LONGITUDE": 149.136387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.142059,
+          -35.172513
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ389",
+        "LOCATION": "Forde",
+        "LOCATION DESCRIPTION": "Ray Ellis Crescent Town Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.172513, 149.142059)",
+        "LATITUDE": -35.172513,
+        "LONGITUDE": 149.142059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.14675,
+          -35.315017
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ486",
+        "LOCATION": "Kingston",
+        "LOCATION DESCRIPTION": "Norgrove Neighbourhood Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.315017, 149.14675)",
+        "LATITUDE": -35.315017,
+        "LONGITUDE": 149.14675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.090308,
+          -35.291814
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ493",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Weston Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.291814, 149.090308)",
+        "LATITUDE": -35.291814,
+        "LONGITUDE": 149.090308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.073366,
+          -35.234753
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ444",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "John Knight Memorial Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.234753, 149.073366)",
+        "LATITUDE": -35.234753,
+        "LONGITUDE": 149.073366
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.123005,
+          -35.297436
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ478",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Lennox Gardens",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.297436, 149.123005)",
+        "LATITUDE": -35.297436,
+        "LONGITUDE": 149.123005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.109266,
+          -35.297866
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ75",
+        "LOCATION": "Yarralumla",
+        "LOCATION DESCRIPTION": "Alexandrina Drive - Pedestrian Parkland",
+        "BBQ TYPE": "Gas",
+        "Location 1": "(-35.297866, 149.109266)",
+        "LATITUDE": -35.297866,
+        "LONGITUDE": 149.109266
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.143886,
+          -35.198023
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ492",
+        "LOCATION": "Franklin",
+        "LOCATION DESCRIPTION": "Kilmeny Close Crip Park",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.198023, 149.143886)",
+        "LATITUDE": -35.198023,
+        "LONGITUDE": 149.143886
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.062728,
+          -35.227896
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ29",
+        "LOCATION": "Belconnen",
+        "LOCATION DESCRIPTION": "Lake Ginninderra Western Foreshores",
+        "BBQ TYPE": "Electric",
+        "Location 1": "(-35.227896, 149.062728)",
+        "LATITUDE": -35.227896,
+        "LONGITUDE": 149.062728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.088974,
+          -35.332875
+        ]
+      },
+      "properties": {
+        "ASSET ID": "BBQ5",
+        "LOCATION": "Hughes",
+        "LOCATION DESCRIPTION": "Groom Street - Pedestrian Parkland",
+        "BBQ TYPE": "Wood",
+        "Location 1": "(-35.332875, 149.088974)",
+        "LATITUDE": -35.332875,
+        "LONGITUDE": 149.088974
+      }
+    }
+  ]
+}
