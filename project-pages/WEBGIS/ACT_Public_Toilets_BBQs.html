@@ -75,7 +75,7 @@
         map.on('load', function () {
             Promise.all([
                 fetch('./converted.geojson').then(response => response.json()),
-                fetch('/BBQ.geojson').then(response => response.json())
+                fetch('./BBQ.geojson').then(response => response.json())
             ])
             .then(([publicToilets, bbq]) => {
                 // Add the public toilets source and layer
