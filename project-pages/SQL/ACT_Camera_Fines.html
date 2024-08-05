@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT Camera Fines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h3 {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            left: 15px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 10px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        h2 {
+            margin: 15px;
+            left: 10px;
+            font-size: 18px;
+        }
+        .left-margin {
+            margin-left: 20px;
+        }
+        .small-font {
+            font-size: 14px;
+        }
+        img {
+            max-width: 100%; /* Ensures the image fits within the container */
+            height: auto; /* Maintains aspect ratio */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table th, table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        table th {
+            background: #333;
+            color: #fff;
+        }
+        table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ACT Camera Fines Data</h1>
+        </div>
+    </header>
+    <h2>1. Excel data from ACT Government:</h2>
+    <p class="left-margin">
+        I downloaded two datasets from ACT Government 
+        <a href="https://www.data.act.gov.au/Justice-Safety-and-Emergency/Traffic-speed-camera-locations/426s-vdu4/data_preview" target="_blank">here</a>.
+        The two datasets were in Excel format and look like this:<br>
+        <a href="data1.png" target="_blank">Click here to view the CAMERA_DATA dataset image</a><br>
+        <br>The following dataset was for the offence cases based on date:<br>
+        <a href="data2.png" target="_blank">Click here to view the OFFENSE_DATA dataset image</a><br>
+    </p>
+    <h2>2. Creating a schema is a fundamental part:</h2>
+    <p class="small-font left-margin">
+        <strong>Schema Diagram Description</strong><br><br>
+        
+        <strong>Table: CAMERA_DATA</strong><br>
+        CAMERA_TYPE (VARCHAR(50))<br>
+        LOCATION_CODE (INT)<br>
+        LATITUDE (DECIMAL(9, 6))<br>
+        LONGITUDE (DECIMAL(9, 6))<br>
+        ADDRESS (VARCHAR(255))<br>
+        PENALTY_AMOUNT (DECIMAL(10, 2))<br>
+        CASE_COUNT (INT)<br>
+        PRIMARY KEY: (CAMERA_TYPE, LOCATION_CODE)<br><br>
+        
+        <strong>Table: OFFENSE_DATA</strong><br>
+        OFFENSE_MONTH (VARCHAR(7))<br>
+        REGO_STATE (VARCHAR(3))<br>
+        CAMERA_TYPE (VARCHAR(50))<br>
+        LOCATION_CODE (INT)<br>
+        ADDRESS (VARCHAR(255))<br>
+        OFFENSE_DESC (VARCHAR(255))<br>
+        PENALTY_AMOUNT (DECIMAL(10, 2))<br>
+        CASE_COUNT (INT)<br>
+        PRIMARY KEY: (OFFENSE_MONTH, REGO_STATE, CAMERA_TYPE, LOCATION_CODE, ADDRESS)<br>
+        FOREIGN KEY: (CAMERA_TYPE, LOCATION_CODE) REFERENCES CAMERA_DATA (CAMERA_TYPE, LOCATION_CODE)<br><br>
+        
+        <strong>Visual Diagram Description</strong><br>
+        Here’s how you can visually represent this schema:<br><br>
+        
+        <strong>CAMERA_DATA Table:</strong><br>
+        CAMERA_TYPE (PK)<br>
+        LOCATION_CODE (PK)<br>
+        LATITUDE<br>
+        LONGITUDE<br>
+        ADDRESS<br>
+        PENALTY_AMOUNT<br>
+        CASE_COUNT<br><br>
+        
+        <strong>OFFENSE_DATA Table:</strong><br>
+        OFFENSE_MONTH<br>
+        REGO_STATE<br>
+        CAMERA_TYPE (FK)<br>
+        LOCATION_CODE (FK)<br>
+        ADDRESS<br>
+        OFFENSE_DESC<br>
+        PENALTY_AMOUNT<br>
+        CASE_COUNT<br><br>
+        
+        <strong>Primary Key:</strong> (OFFENSE_MONTH, REGO_STATE, CAMERA_TYPE, LOCATION_CODE, ADDRESS)<br><br>
+        
+        <strong>Relationship:</strong><br>
+        OFFENSE_DATA has a foreign key relationship to CAMERA_DATA.<br>
+        CAMERA_TYPE and LOCATION_CODE in OFFENSE_DATA reference CAMERA_TYPE and LOCATION_CODE in CAMERA_DATA.<br>
+        <br>
+    
+        <strong>Schema Diagram:</strong><br>
+    
+    <a href="data3.png" target="_blank">Click here to view the Schema diagram</a> showing relationships between CAMERA_DATA and OFFENSE_DATA<br>
+    <h2>3. Import Excel Files To SQL Cloud:</h2>
+    <p class="left-margin">
+        I converted these two datasets from CSV format to DB format by using <a href="https://sqliteonline.com/">this online platform</a>. 
+        <br> After that I uploaded these .db files to SQL Cloud.
+    </p>
+    
+    <h2>4. Edit Tables in SQL Cloud:</h2>
+    <p class="small-font left-margin">
+        <strong>Edit Tables</strong><br><br>
+        <pre style="margin: 0; font-family: monospace;">
+    -- 1. Create new OFFENSE_DATA table with updated schema
+    CREATE TABLE OFFENSE_DATA_NEW (
+        OFFENSE_MONTH VARCHAR(7),
+        REGO_STATE VARCHAR(3),
+        CAMERA_TYPE VARCHAR(50),
+        LOCATION_CODE INT,
+        ADDRESS VARCHAR(255),
+        OFFENSE_DESC VARCHAR(255),
+        PENALTY_AMOUNT DECIMAL(10, 2),
+        CASE_COUNT INT,
+        PRIMARY KEY (OFFENSE_MONTH, REGO_STATE, CAMERA_TYPE, LOCATION_CODE, ADDRESS),
+        FOREIGN KEY (CAMERA_TYPE, LOCATION_CODE)
+            REFERENCES CAMERA_DATA (CAMERA_TYPE, LOCATION_CODE)
+    );
+    
+    -- 2. Copy data from old OFFENSE_DATA table to new table
+    INSERT INTO OFFENSE_DATA_NEW
+        (OFFENSE_MONTH, REGO_STATE, CAMERA_TYPE, LOCATION_CODE, ADDRESS, OFFENSE_DESC, PENALTY_AMOUNT, CASE_COUNT)
+    SELECT OFFENSE_MONTH, REGO_STATE, CAMERA_TYPE, LOCATION_CODE, ADDRESS, OFFENSE_DESC, PENALTY_AMOUNT, CASE_COUNT
+    FROM OFFENSE_DATA;
+    
+    -- 3. Drop the old OFFENSE_DATA table
+    DROP TABLE OFFENSE_DATA;
+    
+    -- 4. Rename the new table to the original table name
+    ALTER TABLE OFFENSE_DATA_NEW RENAME TO OFFENSE_DATA;
+    
+    -- 5. Create new CAMERA_DATA table with updated schema
+    CREATE TABLE CAMERA_DATA_NEW (
+        CAMERA_TYPE VARCHAR(50),
+        LOCATION_CODE INT,
+        LATITUDE DECIMAL(9, 6),
+        LONGITUDE DECIMAL(9, 6),
+        ADDRESS VARCHAR(255),
+        PENALTY_AMOUNT DECIMAL(10, 2),
+        CASE_COUNT INT,
+        PRIMARY KEY (CAMERA_TYPE, LOCATION_CODE)
+    );
+    
+    -- 6. Copy data from old CAMERA_DATA table to new table
+    INSERT INTO CAMERA_DATA_NEW
+        (CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT)
+    SELECT CAMERA_TYPE, LOCATION_CODE, LATITUDE, LONGITUDE, ADDRESS, PENALTY_AMOUNT, CASE_COUNT
+    FROM CAMERA_DATA;
+    
+    -- 7. Drop the old CAMERA_DATA table
+    DROP TABLE CAMERA_DATA;
+    
+    -- 8. Rename the new table to the original table name
+    ALTER TABLE CAMERA_DATA_NEW RENAME TO CAMERA_DATA;
+        </pre>
+    </p>
+
+    <div class="footer">
+        <p>&copy; 2024 ACT Camera Fines. All rights reserved.</p>
+    </div>
+</body>
+</html>
