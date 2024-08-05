@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SQLite Cloud Gateway</title>
+  <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+  <style>
+    /* Include your CSS styles here */
+    .pb-4 {
+      padding-bottom: 0.5rem;
+    }
+    .text-sm {
+      font-size: 0.875rem;
+    }
+    .pl-4 {
+      padding-left: 1rem;
+    }
+    .input-box {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .button {
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      border: 1px solid #d2d6dc;
+      background-color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+      border-radius: 0.25rem;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .messages {
+      padding-left: 1.5rem;
+      margin-top: 1rem;
+      list-style: decimal;
+    }
+    .top_box {
+      background-color: rgb(96, 99, 242);
+      border-radius: 15px;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body class="p-4">
+  <h1>SQLite Cloud: Practising SQL Querries</h1>
+  <p class="top_box">Please select a database to practice with by using the command: Use Database "Database name".<br>
+    Please check <a href="https://levinhlamdoan.github.io/project-pages/SQL/database_list.html" target="_blank">the list of available databasess here</a>.<br> 
+    Please check <a href="https://docs.sqlitecloud.io/docs/sqlite" target="_blank"> the list of commands here</a>.<br> After selecting a database, we can write querries based on the prompt below:</p>
+  <!--<h2 id="status" class="font-bold cursor-pointer">Disconnected</h2>-->
+  
+    <h2>1. ACT Camera Locations and Fines:</h2> 
+    
+    <p>The Process for Preparing This Database: <a href="https://levinhlamdoan.github.io/project-pages/SQL/ACT_Camera_Fines.html" target="_blank">View it here</a></p>
+    <ul>
+        <li><strong>Download Excel Data from ACT Government</strong><br>Obtain the required data files in Excel format from the ACT Government website.</li>
+        <li><strong>Create a Schema</strong><br>Define the structure of the database by creating a schema that specifies the tables and their relationships.</li>
+        <li><strong>Import Excel/CSV Files to SQL Cloud</strong><br>Upload and import the downloaded Excel or CSV files into your SQL Cloud database.</li>
+        <li><strong>Edit Tables in SQL Cloud</strong><br>Modify the tables as needed, including data type adjustments, constraints, and other changes.</li>
+    </ul>
+    <p>ACT Camera Locations and Fines with <a href="https://levinhlamdoan.github.io/project-pages/SQL/ACT_Camera_Querries.html" target="_blank">a list of SQL queries</a>.
+      Simply copy and paste these queries into the query box below to execute them and check the results.<br>
+      Please remember to type USE DATABASE CAMERA_OFFENSE.db before executing the queries.
+
+
+    
+  <div class="text-sm pb-6">
+    <a id="apiDatabases" class="cursor-pointer" style="display:none;">databases</a> |
+    <a id="apiInfo" class="cursor-pointer" style="display:none;">info</a>
+  </div>
+
+  <div class="pb-2">
+    <div class="text-xs w-12" style="display:none;">gatewayUrl</div>
+    <input type="text" id="gatewayStringInput" placeholder="Your SQLite Cloud Gateway address..."
+      value="wss://cka6mztriz.sqlite.cloud:4000" class="input-box" style="display:none;" />
+    <div class="text-xs w-12" style="display:none;">connectionString</div>
+    <input type="text" id="connectionStringInput" placeholder="Type your API key here..."
+      class="input-box"
+      value="789uUd6JjfPZZSbUQYOBx7cXASZS2ujKcTlhjYDFVkE" style="display:none;" />
+    <div class="text-xs w-12">Write SQL Querries:</div>
+    <textarea id="messageInput" placeholder="Type your SQL query"
+      class="input-box h-24 resize-y"
+      >use database ACT_Public_Toilets.db; select * from ACT_Public_Toilets;</textarea>
+  </div>
+  <button id="sendButton" class="button mb-6">send</button>
+
+  <h2>Messages:</h2>
+  <ul id="messages" class="messages"></ul>
+
+  <script>
+    // Import Socket.IO client using script tag (global scope)
+    const { io } = window;
+
+    const status = document.getElementById('status');
+    const messages = document.getElementById('messages');
+
+    // Function to set up socket connection
+    function setupSocket() {
+      const gatewayUrl = `wss://cka6mztriz.sqlite.cloud:4000`;
+      const connectionString = '789uUd6JjfPZZSbUQYOBx7cXASZS2ujKcTlhjYDFVkE';
+      const socket = io(gatewayUrl, { auth: { token: connectionString } });
+      
+      socket.on('connect', () => {
+        status.innerText = 'Connected';
+        appendMessage(`connect | session id: ${socket.id}`);
+      });
+
+      socket.on('connect_error', err => {
+        appendMessage(`connect_error | reason: ${err.message}`);
+      });
+
+      socket.on('disconnect', reason => {
+        status.innerText = 'Disconnected';
+        appendMessage(`disconnect | reason: ${reason}`);
+      });
+
+      return socket;
+    }
+
+    // Event listener for Send button click
+    sendButton.addEventListener('click', () => {
+      const socket = setupSocket();
+
+      const sql = messageInput.value;
+      const startTime = Date.now();
+
+      // Emit SQL query request to server
+      socket.emit('POST /v2/sql', { sql }, response => {
+        console.debug(`sql - sql: ${sql} (${Date.now() - startTime}ms)`, response);
+        appendMessage(`sql | ${JSON.stringify(response)}`);
+      });
+    });
+
+    // Function to append message to the messages list
+    function appendMessage(content) {
+      const item = document.createElement('li');
+      item.classList.add('pb-4');
+      item.classList.add('text-sm');
+      item.textContent = content;
+      messages.prepend(item);
+    }
+  </script>
+</body>
+
+</html>
