@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Convert JSON to GeoJSON</title>
+</head>
+<body>
+    <h1>Convert JSON to GeoJSON</h1>
+    <input type="file" id="fileInput" />
+    <a id="downloadBtn" href="#" download="converted.geojson" style="display:none;">Download GeoJSON</a>
+
+    <script>
+        function createGeoJsonFromCoordinates(rawData) {
+            return {
+                type: 'FeatureCollection',
+                features: rawData.map(item => ({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [item.LONGITUDE, item.LATITUDE]
+                    },
+                    properties: Object.assign({}, item)
+                }))
+            };
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0]; // Get the selected file
+            if (file) {
+                const reader = new FileReader(); // Create a new FileReader instance
+                reader.onload = function(e) {
+                    try {
+                        const rawData = JSON.parse(e.target.result); // Parse the file content as JSON
+                        const geoJson = createGeoJsonFromCoordinates(rawData); // Convert to GeoJSON
+
+                        // Enable the download button
+                        const downloadBtn = document.getElementById('downloadBtn');
+                        downloadBtn.style.display = 'block';
+                        const blob = new Blob([JSON.stringify(geoJson, null, 2)], { type: 'application/json' });
+                        const url = URL.createObjectURL(blob);
+                        downloadBtn.href = url;
+                    } catch (error) {
+                        console.error('Error parsing JSON or converting to GeoJSON:', error.message);
+                        document.getElementById('downloadBtn').style.display = 'none';
+                    }
+                };
+                reader.readAsText(file); // Read the file content as text
+            }
+        });
+    </script>
+</body>
+</html>
