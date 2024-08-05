@@ -89,7 +89,7 @@
                     });
 
                     // Fetch and add the BBQ data
-                    return fetch('/BBQ.geojson');
+                    return fetch('./BBQ.geojson');
                 })
                 .then(response => {
                     if (!response.ok) {
