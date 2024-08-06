@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pedestrian Crash Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .legend {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+            z-index: 1;
+        }
+        .legend div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .legend .color-box {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .legend .blue {
+            background-color: #007cbf;
+        }
+        .legend .red {
+            background-color: #ff0000;
+        }
+        .map_title {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            position: absolute;
+            top: 30px;
+            left: 10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="map_title">Pedestrian Crash Locations</div>
+    <div class="legend">
+        <div><div class="color-box blue"></div> No Casualties</div>
+        <div><div class="color-box red"></div> With Casualties</div>
+    </div>
+    <script>
+        // Initialize the map
+        var map = new maplibregl.Map({
+            container: 'map', // Container id
+            style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=wAvkB7mv975z4RvO8dix', // Style URL
+            center: [149.1245, -35.3075], // ACT, Australia [lng, lat]
+            zoom: 10 // Starting zoom level
+        });
+
+        // Initialize popup
+        var popup = new maplibregl.Popup({
+            closeButton: true,
+            closeOnClick: false
+        });
+
+        map.on('load', function () {
+            // Fetch and add the pedestrian crashes data
+            fetch('./PedestrianCrashes.geojson')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok for PedestrianCrashes.geojson');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    map.addSource('pedestrian-crashes', {
+                        'type': 'geojson',
+                        'data': data
+                    });
+
+                    map.addLayer({
+                        'id': 'pedestrian-crashes',
+                        'type': 'circle',
+                        'source': 'pedestrian-crashes',
+                        'paint': {
+                            'circle-radius': 6,
+                            'circle-color': [
+                                'case',
+                                ['>', ['get', 'Pedestrian Casualties'], 0],
+                                '#ff0000', // Red color for Pedestrian Casualties > 0
+                                '#007cbf'  // Blue color for Pedestrian Casualties = 0
+                            ]
+                        }
+                    });
+
+                    // Add click event to display popup
+                    map.on('click', 'pedestrian-crashes', function (e) {
+                        var coordinates = e.features[0].geometry.coordinates.slice();
+                        var description = 
+                            '<strong>Crash Date:</strong> ' + e.features[0].properties['Crash Date'] + '<br>' +
+                            '<strong>Crash Time:</strong> ' + e.features[0].properties['Crash Time'] + '<br>' +
+                            '<strong>Severity:</strong> ' + e.features[0].properties['Severity'] + '<br>' +
+                            '<strong>Crash Type:</strong> ' + e.features[0].properties['Crash Type'] + '<br>' +
+                            '<strong>Pedestrians:</strong> ' + e.features[0].properties['Pedestrians'] + '<br>' +
+                            '<strong>Pedestrian Casualties:</strong> ' + e.features[0].properties['Pedestrian Casualties'] + '<br>' +
+                            '<strong>Reported Location:</strong> ' + e.features[0].properties['Reported Location'];
+
+                        // Ensure the popup is closed when clicking somewhere else
+                        popup.setLngLat(coordinates)
+                            .setHTML(description)
+                            .addTo(map);
+                    });
+
+                    // Change the cursor to a pointer when the mouse is over the features
+                    map.on('mouseenter', 'pedestrian-crashes', function () {
+                        map.getCanvas().style.cursor = 'pointer';
+                    });
+
+                    // Change it back to a pointer when it leaves
+                    map.on('mouseleave', 'pedestrian-crashes', function () {
+                        map.getCanvas().style.cursor = '';
+                    });
+                })
+                .catch(error => console.error('Error loading the GeoJSON data:', error));
+        });
+    </script>
+</body>
+</html>
