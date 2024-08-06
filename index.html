@@ -5,52 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A portfolio for my interest and career.">
     <title>My Portfolio Page</title>
-    <!-- Optional: Link to external CSS and favicon -->
     <link rel="stylesheet" href="stylesheet.css">
     <!-- <link rel="icon" href="./assets/images/1311.png"> -->
 </head>
 <body>
     <header>
-        <h1>Levinh Doan</h1>
+        <div class="header-content">
+            <img src="./image/profilepicture.svg" class="logo" alt="Logo">
+            <h1>Levinh Doan</h1>
+        </div>
         <nav>
             <ul class="menu">
                 <li class="menu-item"><a href="#home">Home</a></li>
-                <li class="menu-item"><a href="./CV/Resume-Levinh Doan.doc" download="Resume-Levinh Doan.doc">Download Resume</a></li>
-
-                <!--<li class="menu-item"><a href="#services">Portfolio</a></li>
-                <li class="menu-item"><a href="#contact">Contact</a></li>-->
+                <li class="menu-item"><a href="./CV/Resume-Levinh-Doan.doc" download="Resume-Levinh-Doan.doc">Download Resume</a></li>
+                <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="home">
-            
             <div class="about_me">
-                <div class="about-image-container">
-                    <img src="./image/mypic.jpg" class="about-me-image" alt="My Picture">
-                </div>
                 <div class="about-me-text-container">
                     <div class="subheader-text project-title">About me</div>
                     <div class="body-text project-card-text">
-                        <div>I am a versatile professional with a Bachelor's degree in Civil Engineering, complemented by a Master's and a Ph.D. in urban studies.
-            Proficient in GIS, data analysis, Excel, and statistical software, I am currently deepening my expertise in cybersecurity</a>.
-                        </div><br>
-                        <div>
-                            <ul class="inline-list">
-                                <li>ACT, Australia</li>
-                                <li>Linkedin</li>
-                                <li>Github</li>
-                            </ul>
-                        </div>
+                        <p>I am a versatile professional with a Bachelor's degree in Civil Engineering, complemented by a Master's and a Ph.D. in urban studies. Proficient in GIS, data analysis, Excel, and statistical software, I am currently deepening my expertise in the IT field and developing additional IT skills.</p>
                     </div>
                 </div>
             </div>
-            
         </section>
 
         <section id="portfolio">
-            <br><h1>My interest</h1><br>
+            <h1>My Interests</h1>
             <div class="project-card-box">
                 <!-- Project Card 1 -->
                 <div class="project-card">
@@ -60,7 +47,7 @@
                     <div class="project-card-text-container">
                         <div class="subheader-text project-title">Online Mapping</div>
                         <div class="body-text project-card-text">
-                            I create dynamic and interactive online maps using HTML, CSS, JavaScript, MapLibre GL JS, bringing spatial data to life with geocoding and spatial analysis techniques. My expertise in data visualization allows me to transform big data into intuitive and insightful maps. <a href="https://levinhlamdoan.github.io/onlinemapping.html">View my portfolio</a></a>.
+                            <p>I create dynamic and interactive online maps using HTML, CSS, JavaScript, MapLibre GL JS, bringing spatial data to life with geocoding and spatial analysis techniques. I am interested in data visualization to transform big data into intuitive and insightful maps. <a href="https://levinhlamdoan.github.io/onlinemapping.html">View my portfolio</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +60,7 @@
                     <div class="project-card-text-container">
                         <div class="subheader-text project-title">GIS Mapping</div>
                         <div class="body-text project-card-text">
-                            I specialize in GIS mapping using QGIS and ArcGIS, performing geospatial analysis and data visualization to create detailed and accurate maps. My work supports applications such as urban planning, environmental management, and resource allocation.<a href="https://levinhlamdoan.github.io/gismapping.html">View my portfolio</a></a>.
+                            <p>I am interested in GIS mapping using QGIS and ArcGIS, performing geospatial analysis and data visualization to create detailed and accurate maps. I love to explore what data can provide us in urban planning, environmental management, and resource allocation. <a href="https://levinhlamdoan.github.io/gismapping.html">View my portfolio</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -86,9 +73,9 @@
                         <img src="./image/DataAnalysisVisualization.svg" class="project-image" alt="Data Analysis Project">
                     </div>
                     <div class="project-card-text-container">
-                        <div class="subheader-text project-title">Data Analysis and Visualization</div>
+                        <div class="subheader-text project-title">Cloud-Based SQL Analysis</div>
                         <div class="body-text project-card-text">
-                            I am interested in data analysis and visualization using SQL, Python, Excel, Power BI, and Tableau. My expertise allows me to transform raw data into actionable insights, creating interactive and visually appealing reports and dashboards for informed decision-making across various domains</a>.
+                            <p>I am exploring how to leverage Cloud-based SQL platforms for effective data analysis, including importing datasets, refining schemas, and executing queries. I have created a cloud-based platform for practicing SQLite with portfolio cases transforming raw data into SQL databases and performing complex queries. <a href="https://levinhlamdoan.github.io/project-pages/SQL/SQL_Portfolios_Practice.html">View my portfolio</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +88,7 @@
                     <div class="project-card-text-container">
                         <div class="subheader-text project-title">Scientific Research</div>
                         <div class="body-text project-card-text">
-                            I have published a number of scientific research papers with expertise in GIS mapping, Statistics, SPSS, and Excel. Utilizing these skills, I have performed data analysis and methodical experimentation, with the aim to provide valuable insights regarding big datasets. <a href="https://levinhlamdoan.github.io/researchpublication.html">View my publication</a></a>.
+                            <p>I have published a number of scientific research papers with expertise in GIS mapping, Statistics, SPSS, and Excel. Utilizing these skills, I have performed data analysis and methodical experimentation, with the aim to provide valuable insights regarding big datasets. <a href="https://levinhlamdoan.github.io/researchpublication.html">View my publication</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -110,8 +97,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Levinh Doan. All rights reserved.</p><br>
-        <p>&copy; Email: lamlvdoan@gmail.com.</p>
+        <p>&copy; ACT, Australia. Email: lamlvdoan@gmail.com. <a href="https://www.linkedin.com/in/le-vinh-lam-doan/">LinkedIn</a></p>
     </footer>
 </body>
 </html>
