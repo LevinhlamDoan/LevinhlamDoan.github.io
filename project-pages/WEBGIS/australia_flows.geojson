@@ -1,0 +1,645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            19.934,
+            60.198
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Aland Islands",
+        "value": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -70.016,
+            12.521
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Aruba",
+        "value": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            133.775,
+            -25.274
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Australia",
+        "value": 2200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -77.396,
+            25.034
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Bahamas",
+        "value": 116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            24.684,
+            -22.328
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Botswana",
+        "value": 71404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -51.925,
+            -14.235
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Brazil",
+        "value": 7564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -1.561,
+            12.238
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Burkina Faso",
+        "value": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -71.538,
+            -35.675
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Chile",
+        "value": 53194
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -74.297,
+            4.57
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Colombia",
+        "value": 1201
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -77.396,
+            21.521
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Cuba",
+        "value": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -68.939,
+            12.169
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Curaçao",
+        "value": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -6.911,
+            61.892
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Faroe Islands",
+        "value": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            144.668,
+            13.444
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Guam",
+        "value": 996293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -90.23,
+            15.783
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Guatemala",
+        "value": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -19.02,
+            64.963
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Iceland",
+        "value": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            113.921,
+            -0.789
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Indonesia",
+        "value": 21238
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            53.688,
+            32.427
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Iran (Islamic Republic of)",
+        "value": 1004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            34.851,
+            31.046
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Israel",
+        "value": 3142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            66.923,
+            48.019
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Kazakhstan",
+        "value": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            37.906,
+            -1.292
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Kenya",
+        "value": 1312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            74.766,
+            41.204
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Kyrgyzstan",
+        "value": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            34.301,
+            -13.254
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Malawi",
+        "value": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -102.552,
+            23.634
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Mexico",
+        "value": 2218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            105.334,
+            46.862
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Mongolia",
+        "value": 27494
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            96.503,
+            21.916
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Myanmar",
+        "value": 27139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            5.291,
+            52.132
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Netherlands (Kingdom of the)",
+        "value": 2262
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            174.885,
+            -40.9
+          ]
+        ]
+      },
+      "properties": {
+        "country": "New Zealand",
+        "value": 314404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -80.782,
+            8.982
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Panama",
+        "value": 19866
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -75.015,
+            -9.19
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Peru",
+        "value": 181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            -98.579,
+            39.828
+          ]
+        ]
+      },
+      "properties": {
+        "country": "United States of America",
+        "value": 18926
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            64.585,
+            41.377
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Uzbekistan",
+        "value": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            133.775,
+            -25.274
+          ],
+          [
+            29.154,
+            -19.015
+          ]
+        ]
+      },
+      "properties": {
+        "country": "Zimbabwe",
+        "value": 1
+      }
+    }
+  ]
+}

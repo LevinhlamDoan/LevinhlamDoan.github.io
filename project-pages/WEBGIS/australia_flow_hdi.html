@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map with Migration Flows and HDI Levels</title>
+    <!-- MapLibre CSS -->
+    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+        }
+        .map-container {
+            flex: 2;
+            position: relative;
+        }
+        .text-container {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+        #map-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 18px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 3px;
+            z-index: 1;
+        }
+        #legend-hdi, #legend-migration {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 3px;
+            z-index: 1;
+            font-size: 9px;
+        }
+        #legend-hdi {
+            bottom: 10px;
+            left: 10px;
+        }
+        #legend-migration {
+            bottom: 10px;
+            right: 10px;
+        }
+        .legend-item {
+            margin: 2px 0;
+        }
+        .color-box {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        h2 {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Map container -->
+        <div class="map-container">
+            <div id="map">
+                <!--<div id="map-title">World Map with Migration Flows and HDI Levels</div>-->
+                <div id="legend-hdi">
+                    <div class="legend-item"><span class="color-box" style="background-color: #67000d;"></span> Low Human Development (0.385 - 0.549)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #a50f15;"></span> Medium Low Human Development (0.55 - 0.699)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #fcbba1;"></span> Medium Human Development (0.699 - 0.799)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #d0f0c0;"></span> High Human Development (0.799 - 0.8)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #31a354;"></span> Very High Human Development (0.8 - 1.0)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #00441b;"></span> Maximum HDI (0.962)</div>
+                </div>
+                <div id="legend-migration">
+                    <div class="legend-item"><span class="color-box" style="background-color: #feb24c;"></span> Low Migration Flow (< 1,000)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #fd8d3c;"></span> Medium Low Migration Flow (1,000 - 5,000)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #fc4e2a;"></span> Medium Migration Flow (5,000 - 10,000)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #e31a1c;"></span> High Migration Flow (10,000 - 50,000)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #bd0026;"></span> Very High Migration Flow (50,000 - 100,000)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #800026;"></span> Maximum Migration Flow (> 100,000)</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Text content container -->
+        <div class="text-container">
+            <h2>Summary of HDI Findings and Migration Flows</h2>
+            <p>The map above displays the Human Development Index (HDI) for various countries around the world alongside migration flows from Vietnam.</p>
+            <p>The HDI color legend indicates different levels of human development. The migration flow legend shows various ranges of migration flow volumes represented by colored lines from Vietnam to other countries.</p>
+        </div>
+    </div>
+
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+    <script>
+        // Initialize the MapLibre map
+        var map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://api.maptiler.com/maps/dataviz-light/style.json?key=wAvkB7mv975z4RvO8dix',
+            center: [108.7275, 14.0583], // Centered on Vietnam
+            zoom: 1
+        });
+
+        // Function to get color based on HDI value
+        function getColor(value) {
+            return value > 100000 ? '#800026' :
+                   value > 50000  ? '#BD0026' :
+                   value > 10000  ? '#E31A1C' :
+                   value > 5000   ? '#FC4E2A' :
+                   value > 1000   ? '#FD8D3C' :
+                                    '#FEB24C';
+        }
+
+        // Function to create smooth curves using turf.js
+        function createSmoothCurve(start, end) {
+            const distance = turf.distance(start, end, { units: 'miles' });
+            const midpoint = turf.midpoint(start, end);
+            const destination = turf.destination(midpoint, distance / -10, 20, { units: 'miles' });
+            return turf.bezierSpline(
+                turf.lineString([start, destination.geometry.coordinates, end])
+            ).geometry.coordinates;
+        }
+
+        // Function to add curved lines with arrows
+        function addFlowLine(id, start, end, color) {
+            const curve = createSmoothCurve(start, end);
+
+            if (map.getSource(id)) {
+                map.removeLayer(id);
+                map.removeSource(id);
+            }
+
+            map.addSource(id, {
+                'type': 'geojson',
+                'data': {
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': curve
+                    }
+                }
+            });
+
+            map.addLayer({
+                'id': id,
+                'type': 'line',
+                'source': id,
+                'layout': {
+                    'line-cap': 'round',
+                    'line-join': 'round'
+                },
+                'paint': {
+                    'line-color': color,
+                    'line-width': 1
+                }
+            });
+
+            map.addLayer({
+                'id': `${id}-arrows`,
+                'type': 'symbol',
+                'source': id,
+                'layout': {
+                    'symbol-placement': 'line',
+                    'symbol-spacing': 1000,
+                    'icon-image': 'arrow',
+                    'icon-size': 0.2
+                }
+            });
+        }
+
+        // Fetch the HDI data
+        function fetchHDIData() {
+            return fetch('./hdi_rank.json')
+                .then(response => response.json())
+                .then(data => {
+                    let hdiMap = {};
+                    data.forEach(entry => {
+                        hdiMap[entry.Country] = entry['2021_HDI'];
+                    });
+                    return hdiMap;
+                })
+                .catch(error => {
+                    console.error('Error loading HDI data:', error);
+                    return {};
+                });
+        }
+
+        // Fetch and add the migration flow data
+        map.on('load', function () {
+            // Load the HDI data and add it to the map
+            fetchHDIData().then(hdiData => {
+                fetch('./world_countries.geojson')
+                    .then(response => response.json())
+                    .then(geojsonData => {
+                        geojsonData.features.forEach(feature => {
+                            let countryName = feature.properties.ADMIN;
+                            if (hdiData[countryName] !== undefined) {
+                                feature.properties['2021_HDI'] = hdiData[countryName];
+                            } else {
+                                feature.properties['2021_HDI'] = null;
+                            }
+                        });
+
+                        map.addSource('world', {
+                            'type': 'geojson',
+                            'data': geojsonData
+                        });
+
+                        map.addLayer({
+                            'id': 'world-layer',
+                            'type': 'fill',
+                            'source': 'world',
+                            'layout': {},
+                            'paint': {
+                                'fill-color': [
+                                    'interpolate',
+                                    ['linear'],
+                                    ['coalesce', ['get', '2021_HDI'], -1],
+                                    -1, '#2a2a2a',
+                                    0.385, '#67000d',
+                                    0.549, '#a50f15',
+                                    0.55, '#fcbba1',
+                                    0.699, '#f7f7f7',
+                                    0.73, '#d0f0c0',
+                                    0.796, '#a0d4a0',
+                                    0.8, '#31a354',
+                                    0.962, '#00441b'
+                                ],
+                                'fill-outline-color': '#2a2a2a',
+                                'fill-opacity': 0.7
+                            }
+                        });
+
+                        map.on('mousemove', 'world-layer', function (e) {
+                            if (e.features.length > 0) {
+                                map.getCanvas().style.cursor = 'pointer';
+                                var feature = e.features[0];
+                                if (feature.properties && feature.properties.ADMIN) {
+                                    console.log('Feature:', feature.properties.ADMIN);
+                                }
+                            }
+                        });
+
+                        map.on('mouseleave', 'world-layer', function () {
+                            map.getCanvas().style.cursor = '';
+                        });
+
+                        map.on('click', 'world-layer', function (e) {
+                            if (e.features.length > 0) {
+                                var feature = e.features[0];
+                                if (feature.properties && feature.properties.ADMIN) {
+                                    var countryName = feature.properties.ADMIN;
+                                    var hdiValue = feature.properties['2021_HDI'] !== null ? feature.properties['2021_HDI'] : 'N/A';
+                                    new maplibregl.Popup()
+                                        .setLngLat(e.lngLat)
+                                        .setHTML('<strong>Country:</strong> ' + countryName + '<br><strong>HDI 2021:</strong> ' + hdiValue)
+                                        .addTo(map);
+                                }
+                            }
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error loading GeoJSON data:', error);
+                    });
+            });
+
+            // Add migration flow data
+            fetch('australia_flows.geojson')
+                .then(response => response.json())
+                .then(data => {
+                    data.features.forEach((feature, index) => {
+                        const coords = feature.geometry.coordinates;
+                        const color = getColor(feature.properties.value);
+                        const id = `flow-line-${index}`;
+                        addFlowLine(id, coords[0], coords[1], color);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading the GeoJSON file:', error);
+                });
+
+            // Add an arrow icon to the map
+            map.loadImage('https://img.icons8.com/ios/50/000000/arrow.png', (error, image) => {
+                if (error) throw error;
+                map.addImage('arrow', image);
+            });
+        });
+    </script>
+</body>
+</html>
