@@ -1,0 +1,998 @@
+[
+  {
+    "Country": "Switzerland",
+    "2021_HDI": 0.962,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Norway",
+    "2021_HDI": 0.961,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Iceland",
+    "2021_HDI": 0.959,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Hong Kong S.A.R.",
+    "2021_HDI": 0.952,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Australia",
+    "2021_HDI": 0.951,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Denmark",
+    "2021_HDI": 0.948,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Sweden",
+    "2021_HDI": 0.947,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Ireland",
+    "2021_HDI": 0.945,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Germany",
+    "2021_HDI": 0.942,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Netherlands",
+    "2021_HDI": 0.941,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Finland",
+    "2021_HDI": 0.94,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Singapore",
+    "2021_HDI": 0.939,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Belgium",
+    "2021_HDI": 0.937,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "New Zealand",
+    "2021_HDI": 0.937,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Canada",
+    "2021_HDI": 0.936,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Liechtenstein",
+    "2021_HDI": 0.935,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Luxembourg",
+    "2021_HDI": 0.93,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "United Kingdom",
+    "2021_HDI": 0.929,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Japan",
+    "2021_HDI": 0.925,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "South Korea",
+    "2021_HDI": 0.925,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "United States of America",
+    "2021_HDI": 0.921,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Israel",
+    "2021_HDI": 0.919,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Malta",
+    "2021_HDI": 0.918,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Slovenia",
+    "2021_HDI": 0.918,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Austria",
+    "2021_HDI": 0.916,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "2021_HDI": 0.911,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Spain",
+    "2021_HDI": 0.905,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "France",
+    "2021_HDI": 0.903,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Cyprus",
+    "2021_HDI": 0.896,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Italy",
+    "2021_HDI": 0.895,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Estonia",
+    "2021_HDI": 0.89,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Czech Republic",
+    "2021_HDI": 0.889,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Greece",
+    "2021_HDI": 0.887,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Poland",
+    "2021_HDI": 0.876,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Bahrain",
+    "2021_HDI": 0.875,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Lithuania",
+    "2021_HDI": 0.875,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "2021_HDI": 0.875,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Portugal",
+    "2021_HDI": 0.866,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Latvia",
+    "2021_HDI": 0.863,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Andorra",
+    "2021_HDI": 0.858,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Croatia",
+    "2021_HDI": 0.858,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Chile",
+    "2021_HDI": 0.855,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Qatar",
+    "2021_HDI": 0.855,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "San Marino",
+    "2021_HDI": 0.853,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Slovakia",
+    "2021_HDI": 0.848,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Hungary",
+    "2021_HDI": 0.846,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Argentina",
+    "2021_HDI": 0.842,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Turkey",
+    "2021_HDI": 0.838,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Montenegro",
+    "2021_HDI": 0.832,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Kosovo",
+    "2021_HDI": 0.832,
+    "Level": "Very high human development"
+  },
+  
+  {
+    "Country": "Kuwait",
+    "2021_HDI": 0.831,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Brunei",
+    "2021_HDI": 0.829,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Russia",
+    "2021_HDI": 0.822,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Romania",
+    "2021_HDI": 0.821,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Oman",
+    "2021_HDI": 0.816,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Bahamas",
+    "2021_HDI": 0.812,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Kazakhstan",
+    "2021_HDI": 0.811,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "2021_HDI": 0.81,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Costa Rica",
+    "2021_HDI": 0.809,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Uruguay",
+    "2021_HDI": 0.809,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Belarus",
+    "2021_HDI": 0.808,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Panama",
+    "2021_HDI": 0.805,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Malaysia",
+    "2021_HDI": 0.803,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Georgia",
+    "2021_HDI": 0.802,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Mauritius",
+    "2021_HDI": 0.802,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Republic of Serbia",
+    "2021_HDI": 0.802,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Thailand",
+    "2021_HDI": 0.8,
+    "Level": "Very high human development"
+  },
+  {
+    "Country": "Albania",
+    "2021_HDI": 0.796,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Bulgaria",
+    "2021_HDI": 0.795,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Grenada",
+    "2021_HDI": 0.795,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Barbados",
+    "2021_HDI": 0.79,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "2021_HDI": 0.788,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Seychelles",
+    "2021_HDI": 0.785,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Sri Lanka",
+    "2021_HDI": 0.782,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "2021_HDI": 0.78,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "2021_HDI": 0.777,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Iran",
+    "2021_HDI": 0.774,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Ukraine",
+    "2021_HDI": 0.773,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Macedonia",
+    "2021_HDI": 0.77,
+    "Level": "High human development"
+  },
+  {
+    "Country": "China",
+    "2021_HDI": 0.768,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Taiwan",
+    "2021_HDI": 0.768,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Dominican Republic",
+    "2021_HDI": 0.767,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Moldova",
+    "2021_HDI": 0.767,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Palau",
+    "2021_HDI": 0.767,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Cuba",
+    "2021_HDI": 0.764,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Peru",
+    "2021_HDI": 0.762,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Armenia",
+    "2021_HDI": 0.759,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Mexico",
+    "2021_HDI": 0.758,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Brazil",
+    "2021_HDI": 0.754,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Colombia",
+    "2021_HDI": 0.752,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Saint Vincent and the Grenadines",
+    "2021_HDI": 0.751,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Maldives",
+    "2021_HDI": 0.747,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Algeria",
+    "2021_HDI": 0.745,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Azerbaijan",
+    "2021_HDI": 0.745,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Tonga",
+    "2021_HDI": 0.745,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Turkmenistan",
+    "2021_HDI": 0.745,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Ecuador",
+    "2021_HDI": 0.74,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Mongolia",
+    "2021_HDI": 0.739,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Egypt",
+    "2021_HDI": 0.731,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Tunisia",
+    "2021_HDI": 0.731,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Fiji",
+    "2021_HDI": 0.73,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Suriname",
+    "2021_HDI": 0.73,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Uzbekistan",
+    "2021_HDI": 0.727,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Dominica",
+    "2021_HDI": 0.72,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Jordan",
+    "2021_HDI": 0.72,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Libya",
+    "2021_HDI": 0.718,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Paraguay",
+    "2021_HDI": 0.717,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Palestine",
+    "2021_HDI": 0.715,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Saint Lucia",
+    "2021_HDI": 0.715,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Guyana",
+    "2021_HDI": 0.714,
+    "Level": "High human development"
+  },
+  {
+    "Country": "South Africa",
+    "2021_HDI": 0.713,
+    "Level": "High human development"
+  },
+
+  
+  {
+    "Country": "Swaziland",
+    "2021_HDI": 0.713,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Jamaica",
+    "2021_HDI": 0.709,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Samoa",
+    "2021_HDI": 0.707,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Gabon",
+    "2021_HDI": 0.706,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Lebanon",
+    "2021_HDI": 0.706,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Indonesia",
+    "2021_HDI": 0.705,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Vietnam",
+    "2021_HDI": 0.703,
+    "Level": "High human development"
+  },
+  {
+    "Country": "Philippines",
+    "2021_HDI": 0.699,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Botswana",
+    "2021_HDI": 0.693,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Bolivia",
+    "2021_HDI": 0.692,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "2021_HDI": 0.692,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Venezuela",
+    "2021_HDI": 0.691,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Iraq",
+    "2021_HDI": 0.686,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Tajikistan",
+    "2021_HDI": 0.685,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Belize",
+    "2021_HDI": 0.683,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Morocco",
+    "2021_HDI": 0.683,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Western Sahara",
+    "2021_HDI": 0.683,
+    "Level": "Medium human development"
+  },
+  
+  {
+    "Country": "El Salvador",
+    "2021_HDI": 0.675,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Nicaragua",
+    "2021_HDI": 0.667,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Bhutan",
+    "2021_HDI": 0.666,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Cabo Verde",
+    "2021_HDI": 0.662,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Bangladesh",
+    "2021_HDI": 0.661,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Tuvalu",
+    "2021_HDI": 0.641,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Marshall Islands",
+    "2021_HDI": 0.639,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "India",
+    "2021_HDI": 0.633,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Ghana",
+    "2021_HDI": 0.632,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Micronesia (Federated States of)",
+    "2021_HDI": 0.628,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Guatemala",
+    "2021_HDI": 0.627,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Kiribati",
+    "2021_HDI": 0.624,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Honduras",
+    "2021_HDI": 0.621,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "2021_HDI": 0.618,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Namibia",
+    "2021_HDI": 0.615,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Laos",
+    "2021_HDI": 0.607,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "East Timor",
+    "2021_HDI": 0.607,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Vanuatu",
+    "2021_HDI": 0.607,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Nepal",
+    "2021_HDI": 0.602,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Eswatini (Kingdom of)",
+    "2021_HDI": 0.597,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "2021_HDI": 0.596,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Cambodia",
+    "2021_HDI": 0.593,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Zimbabwe",
+    "2021_HDI": 0.593,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Angola",
+    "2021_HDI": 0.586,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Myanmar",
+    "2021_HDI": 0.585,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Syria",
+    "2021_HDI": 0.577,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Cameroon",
+    "2021_HDI": 0.576,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Kenya",
+    "2021_HDI": 0.575,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Somalia",
+    "2021_HDI": 0.575,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Somaliland",
+    "2021_HDI": 0.575,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Democratic Republic of the Congo",
+    "2021_HDI": 0.571,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Republic of Congo",
+    "2021_HDI": 0.571,
+    "Level": "Medium human development"
+  },
+
+
+  {
+    "Country": "Zambia",
+    "2021_HDI": 0.565,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Solomon Islands",
+    "2021_HDI": 0.564,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Comoros",
+    "2021_HDI": 0.558,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Papua New Guinea",
+    "2021_HDI": 0.558,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Mauritania",
+    "2021_HDI": 0.556,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "Ivory Coast",
+    "2021_HDI": 0.55,
+    "Level": "Medium human development"
+  },
+  {
+    "Country": "United Republic of Tanzania",
+    "2021_HDI": 0.549,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Pakistan",
+    "2021_HDI": 0.544,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Togo",
+    "2021_HDI": 0.539,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Haiti",
+    "2021_HDI": 0.535,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Nigeria",
+    "2021_HDI": 0.535,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Rwanda",
+    "2021_HDI": 0.534,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Benin",
+    "2021_HDI": 0.525,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Uganda",
+    "2021_HDI": 0.525,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Lesotho",
+    "2021_HDI": 0.514,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Malawi",
+    "2021_HDI": 0.512,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Senegal",
+    "2021_HDI": 0.511,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Djibouti",
+    "2021_HDI": 0.509,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Sudan",
+    "2021_HDI": 0.508,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Madagascar",
+    "2021_HDI": 0.501,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Gambia",
+    "2021_HDI": 0.5,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Ethiopia",
+    "2021_HDI": 0.498,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Eritrea",
+    "2021_HDI": 0.492,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Guinea Bissau",
+    "2021_HDI": 0.483,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Liberia",
+    "2021_HDI": 0.481,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Congo (Democratic Republic of the)",
+    "2021_HDI": 0.479,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Afghanistan",
+    "2021_HDI": 0.478,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Sierra Leone",
+    "2021_HDI": 0.477,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Guinea",
+    "2021_HDI": 0.465,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Yemen",
+    "2021_HDI": 0.455,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Burkina Faso",
+    "2021_HDI": 0.449,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Mozambique",
+    "2021_HDI": 0.446,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Mali",
+    "2021_HDI": 0.428,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Burundi",
+    "2021_HDI": 0.426,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Central African Republic",
+    "2021_HDI": 0.404,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Niger",
+    "2021_HDI": 0.4,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "Chad",
+    "2021_HDI": 0.394,
+    "Level": "Low human development"
+  },
+  {
+    "Country": "South Sudan",
+    "2021_HDI": 0.385,
+    "Level": "Low human development"
+  }
+]
