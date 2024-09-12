@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert JSON to GeoJSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload JSON and Convert to GeoJSON</h1>
+        <input type="file" id="fileInput" accept=".json">
+        <button onclick="convertToGeoJSON()">Convert to GeoJSON</button>
+        <a id="downloadLink" style="display: none;">Download GeoJSON</a>
+    </div>
+
+    <script>
+        function convertToGeoJSON() {
+            const fileInput = document.getElementById('fileInput');
+            const downloadLink = document.getElementById('downloadLink');
+
+            if (fileInput.files.length === 0) {
+                alert('Please select a file first.');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(event) {
+                const jsonData = event.target.result;
+
+                // Parse JSON data
+                const data = JSON.parse(jsonData);
+
+                // Convert to GeoJSON
+                const features = data.map(item => ({
+                    type: "Feature",
+                    geometry: {
+                        type: "LineString",
+                        coordinates: [
+                            [item.From_Longitude, item.From_Latitude],
+                            [item.To_Longitude, item.To_Latitude]
+                        ]
+                    },
+                    properties: {
+                        country: item.Country,
+                        value: item.Value
+                    }
+                }));
+
+                const geojson = {
+                    type: "FeatureCollection",
+                    features: features
+                };
+
+                // Convert GeoJSON to Blob
+                const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+
+                // Update the download link
+                downloadLink.href = url;
+                downloadLink.download = 'migration_flows.geojson';
+                downloadLink.style.display = 'block';
+                downloadLink.textContent = 'Download GeoJSON';
+            };
+
+            reader.readAsText(file);
+        }
+    </script>
+</body>
+</html>
