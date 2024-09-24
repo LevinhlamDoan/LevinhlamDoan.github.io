@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Project: Migration, Ethnicity, and House Prices in the UK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Project: Relationship between Migration, Ethnicity, and House Prices in the UK</h1>
+
+    <h2>Project Overview</h2>
+    <p>This SQL project analyzes the relationship between migration flows, ethnic composition, and house prices in the UK using various datasets from the UK Data Service.</p>
+
+    <h2>Data Sources</h2>
+    <ul>
+        <li><a href="https://ukdataservice.ac.uk/" target="_blank">UK Data Service</a> - Includes House Price Dataset (2020), Ethnicity data, and Migration flow data from the 2021 UK census.</li>
+        <li><strong>Boundary Data:</strong> Middle Layer Super Output Areas (MSOAs).This boundary includes 6856 Middle Layer Super Output Areas.</li>
+        <li><strong>House Price Dataset (2020):</strong> Includes postcode, price, and house condition. The dataset includes 65427 postcodes. I converted them to longitude and latitude coordinates, allowing us to map these locations against Middle Layer Super Output Areas (MSOAs) boundaries.</li>
+        <li><strong>Ethnicity Dataset:</strong> Census 2021 estimates of ethnic groups in England and Wales.It includes 145280 cases</li>
+        <li><strong>Migration Datasets:</strong> Tracks migration flows between MSOAs in 2021, including 9999 flows between areas</li>
+    </ul>
+
+    <h2>Relationships</h2>
+    <p>The project analyzes the following relationships:</p>
+    <img src="path/to/your/image.jpg" alt="Entity-Relationship Diagram (ERD)">
+    <ul>
+        <li><strong>Price_Area to Migration:</strong> One-to-Many</li>
+        <li><strong>Price_Area to Ethnicity:</strong> One-to-Many</li>
+    </ul>
+    <p>Migration and Ethnicity do not have a direct relationship but can be analyzed together through the Price_Area table.</p>
+
+    <h2>SQL Query Examples</h2>
+    <p>Here are the SQL queries used in this project:</p>
+
+    <h3>1. Average House Prices by MSOA</h3>
+    <pre><code>SELECT 
+    ROW_NUMBER() OVER (ORDER BY Average_Price DESC) AS OrderID,
+    MLSOA_Name, 
+    Average_Price
+FROM 
+    Price_Area
+ORDER BY 
+    Average_Price DESC
+LIMIT 10;</code></pre>
+
+    <h3>2. Total Transactions by MSOA</h3>
+    <pre><code>SELECT 
+    ROW_NUMBER() OVER (ORDER BY Total_Transactions DESC) AS OrderID,
+    MLSOA_Name, 
+    Total_Transactions
+FROM (
+    SELECT 
+        MLSOA_Name, 
+        SUM(Transactions) AS Total_Transactions
+    FROM 
+        Price_Area
+    GROUP BY 
+        MLSOA_Name
+) AS Subquery
+ORDER BY 
+    Total_Transactions DESC
+LIMIT 20;</code></pre>
+
+    <h3>3. Migration Counts for Each Current MSOA</h3>
+    <pre><code>SELECT 
+    m.Current_MLSOA_Code, 
+    pa.MLSOA_name,
+    SUM(m.Count) AS Total_Migrants 
+FROM 
+    Migration m
+Inner Join
+    Price_Area pa On m.Current_MLSOA_Code = pa.Current_MLSOA_Code
+GROUP BY 
+    m.Current_MLSOA_Code, pa.MLSOA_Name
+ORDER BY 
+    Total_Migrants DESC;</code></pre>
+
+    <h3>4. Distinct Ethnic Categories and Maximum Observations</h3>
+    <pre><code> WITH MaxObservations AS (
+    SELECT
+        Current_MLSOA_Code,
+        Ethnic_Categories,
+        MAX(Observation) AS Max_Number
+    FROM
+        Ethnicity
+    GROUP BY
+        Current_MLSOA_Code,
+        Ethnic_Categories
+)
+
+SELECT 
+    pa.MLSOA_Name,
+    mo.Ethnic_Categories,
+    mo.Max_Number
+FROM 
+    MaxObservations mo
+INNER JOIN 
+    Price_Area pa ON mo.Current_MLSOA_Code = pa.Current_MLSOA_Code
+WHERE 
+    (mo.Ethnic_Categories, mo.Max_Number) IN (
+        SELECT 
+            Ethnic_Categories, 
+            MAX(Max_Number)
+        FROM 
+            MaxObservations
+        GROUP BY 
+            Ethnic_Categories
+    )
+ORDER BY 
+    mo.Ethnic_Categories, mo.Max_Number DESC;</code></pre>
+
+    <h3>5. Total Number of Migrants, Grouped and Ordered </h3>
+    <pre><code>SELECT 
+    pa.MLSOA_Name,
+    m.Current_MLSOA_Code,
+    SUM(m.Count) AS Total_Migrants
+FROM 
+    Migration m
+INNER JOIN 
+    Price_Area pa ON pa.Current_MLSOA_Code = m.Current_MLSOA_Code
+GROUP BY 
+    pa.MLSOA_Name, m.Current_MLSOA_Code
+ORDER BY 
+    Total_Migrants DESC;</code></pre>
+
+    <h2>Conclusion</h2>
+    <p>This project provides valuable insights into how migration and ethnic diversity relate to house prices in different areas of the UK.</p>
+</div>
+
+</body>
+</html>
