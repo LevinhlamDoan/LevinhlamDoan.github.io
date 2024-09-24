@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A portfolio for my interest and career.">
     <title>My Portfolio Page</title>
+    <!-- Optional: Link to external CSS and favicon -->
     <link rel="stylesheet" href="stylesheet.css">
     <!-- <link rel="icon" href="./assets/images/1311.png"> -->
 </head>
@@ -17,33 +18,35 @@
         <nav>
             <ul class="menu">
                 <li class="menu-item"><a href="https://levinhlamdoan.github.io/">Home</a></li>
-                <!-- <li class="menu-item"><a href="#about">CV/Resume</a></li>
+                <!--<li class="menu-item"><a href="#about">CV/Resume</a></li>
                 <li class="menu-item"><a href="#services">Portfolio</a></li>
-                <li class="menu-item"><a href="#contact">Contact</a></li> -->
+                <li class="menu-item"><a href="#contact">Contact</a></li>-->
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="home">
-            <div style="background-color: #7c7aed; padding: 20px; border-radius: 15px;">
-                <h1>Online Mapping</h1>
-                <p>I create dynamic and interactive online maps using HTML, CSS, JavaScript, MapLibre GL JS, bringing spatial data to life with geocoding and spatial analysis techniques. I am interested in data visualization to transform big data into intuitive and insightful maps.</p>
+            
+            <div style="background-color: #7c7aed; padding: 20px; border-radius: 5px; border-radius: 15px;">
+                <h1>GIS Mapping</h1>
+                <p>I specialize in GIS mapping using QGIS and ArcGIS, performing geospatial analysis and data visualization to create detailed and accurate maps. I love to explore the insight that data can provide us in urban planning, environmental management, and resource allocation.</p>
             </div>
+            
         </section>
 
         <section id="portfolio">
-            <h1>My Portfolio</h1>
+            <br><h1>My Portfolio</h1><br>
             <div class="project-card-box">
                 <!-- Project Card 1 -->
                 <div class="project-card">
                     <div class="project-image-container">
-                        <img src="./image/onlinemapping.svg" class="project-image" alt="Data Analysis Project">
+                        <img src="./image/gismapping.svg" class="project-image" alt="Data Analysis Project">
                     </div>
                     <div class="project-card-text-container">
-                        <div class="subheader-text project-title">ACT Street Light and Speed Camera</div>
+                        <div class="subheader-text project-title">Housing and Migraion Patterns</div>
                         <div class="body-text project-card-text">
-                            I create dynamic and interactive online maps using HTML, CSS, JavaScript, MapLibre GL JS, bringing spatial data to life with geocoding and spatial analysis techniques. My expertise in data visualization allows me to transform big data into intuitive and insightful maps. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/index.html">Click here to view</a>.
+                            I used ArcGIS and QGIS to analyze 2011 migration and house price data in Greater Manchester, UK, revealing spatial patterns. Identifying problematic patterns aids in improving housing conditions and transportation. The study highlights GIS's value in uncovering spatial relationships in housing markets. <a href="https://levinhlamdoan.github.io/project-pages/GIS/project_3.html">Click here to view</a></a>.
                         </div>
                     </div>
                 </div>
@@ -51,12 +54,14 @@
                 <!-- Project Card 2 -->
                 <div class="project-card">
                     <div class="project-image-container">
-                        <img src="./image/ToiletBBQ.svg" class="project-image" alt="GIS Mapping Project">
+                        <img src="./image/SpatialMigrationFlows.svg" class="project-image" alt="GIS Mapping Project">
                     </div>
                     <div class="project-card-text-container">
-                        <div class="subheader-text project-title">ACT Public Toilet and BBQ Locations 2024</div>
+                        <div class="subheader-text project-title">Spatial Migration flows
+                        </div>
                         <div class="body-text project-card-text">
-                            Discover essential amenities across the ACT with the updated map for 2024. Easily locate public toilets and BBQ spots to enhance outdoor activities. This interactive map provides up-to-date information, helping find the nearest restrooms and ideal BBQ areas. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/ACT_Public_Toilets_BBQs.html">Click here to view</a>.
+                            I used GIS to explore the spatial links between migration, house prices, age, and distance in Greater Manchester, UK, using 2011 data. Visual maps reveal strong connections between migration patterns and house prices, aiding policymakers in identifying trends for informed decision-making.
+                            <a href="https://levinhlamdoan.github.io/project-pages/GIS/Project_1.html">Click here to view</a></a>.
                         </div>
                     </div>
                 </div>
@@ -66,12 +71,13 @@
                 <!-- Project Card 3 -->
                 <div class="project-card">
                     <div class="project-image-container">
-                        <img src="./image/PedestrianCrashes.png" class="project-image" alt="Pedestrian Crash Map">
+                        <img src="./image/HousingSearchPattern.svg" class="project-image" alt="Data Analysis Project">
                     </div>
                     <div class="project-card-text-container">
-                        <div class="subheader-text project-title">ACT Pedestrian Crash Locations</div>
+                        <div class="subheader-text project-title">Housing search pattern
+                        </div>
                         <div class="body-text project-card-text">
-                            I created a Pedestrian Crash Map for the ACT using MapLibre GL JS and GeoJSON data, visualizing pedestrian crash incidents, and color-coding points to highlight casualties. It enhances public awareness and supports data-driven decision-making for improving pedestrian safety. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/PedestrianCrashes.html">Click here to view</a>.
+                            I used <a href="https://www.rightmove.co.uk/">Rightmove plc's data</a> to predict housing trends and employs GIS to explore demand patterns and mismatches. Findings show a link between online views and sales values, informing planners on housing decisions, addressing gaps in analyzing user-generated data and market outcomes.<a href="https://levinhlamdoan.github.io/project-pages/GIS/project_2.html">Click here to view</a></a>.
                         </div>
                     </div>
                 </div>
@@ -79,39 +85,12 @@
                 <!-- Project Card 4 -->
                 <div class="project-card">
                     <div class="project-image-container">
-                        <img src="./image/geojson.png" class="project-image" alt="JSON to GeoJSON Tool">
+                        <img src="./image/EthnicGroupsMigrationPatterns.svg" class="project-image" alt="Scientific Research Project">
                     </div>
                     <div class="project-card-text-container">
-                        <div class="subheader-text project-title">JSON to GeoJSON Tool</div>
+                        <div class="subheader-text project-title">Ethnic Groups and Migration Patterns</div>
                         <div class="body-text project-card-text">
-                            Easily convert JSON files to GeoJSON with this tool. Upload a JSON file, and it will be transformed into GeoJSON format for seamless use in mapping applications and spatial analysis. The JSON file must have "LONGITUDE" and "LATITUDE" columns to create spatial points in GeoJson. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/JSON2GeoJSON.html">Click here to view</a>.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card-box">
-                <!-- Project Card 5 -->
-                <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="./image/Migration_HDI_Australia.png" class="project-image" alt="Migration_HDI_Australia">
-                    </div>
-                    <div class="project-card-text-container">
-                        <div class="subheader-text project-title">Migration Flows and HDI: Australia</div>
-                        <div class="body-text project-card-text">
-                            This HTML document sets up a web page with an interactive map using MapLibre GL JS. The map displays migration flows and Human Development Index (HDI) levels for various countries. It features two legends for HDI and migration flows, and uses color codes to represent different levels and volumes. The map is centered on Australia and includes smooth curved lines to show migration paths. JavaScript is used to dynamically load and display HDI data and migration flow data, with interactive features like tooltips and popups. <a href="https://levinhlamdoan.github.io/project-pages/WEBGIS/australia_flow_hdi.html">Click here to view</a>.
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 6 -->
-                <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="./image/geojson.png" class="project-image" alt="Migration Flows Tool">
-                    </div>
-                    <div class="project-card-text-container">
-                        <div class="subheader-text project-title">Migration Flows: JSON to GeoJSON</div>
-                        <div class="body-text project-card-text">
-                            This HTML document provides a user interface to upload a JSON file, convert its data into GeoJSON format, and download the converted GeoJSON file. The JavaScript function reads the uploaded JSON, converts it into GeoJSON by mapping flow data into geographic features, and generates a downloadable link. The file must have: Country, Value, To_Longitude, To_Latitude, From_Longitude, From_Latitude. <a href="https://levinhlamdoan.github.io/flows_json2geojson.html">Click here to view</a>.
+                            I examined the spatial migration patterns of ethnic groups in the UK using 2021 Census and house price data. I identified migration clusters, mapping these patterns helps link migration to house price clusters, identify problematic trends, and propose solutions to improve the issues faced by these groups</a>.
                         </div>
                     </div>
                 </div>
@@ -120,12 +99,14 @@
     </main>
 
     <footer>
-        <div class="footer-container">
-            <p>&copy; Australian Capital Territory. &nbsp;|&nbsp;
-                Email: <a href="mailto:lamlvdoan@gmail.com">lamlvdoan@gmail.com</a> &nbsp;|&nbsp;
-                LinkedIn: <a href="https://www.linkedin.com/in/le-vinh-lam-doan/" target="_blank">My LinkedIn Profile</a>
-            </p>
-        </div>
+        <footer>
+  <div class="footer-container">
+    <p>&copy; Australian Capital Territory. &nbsp;|&nbsp;
+      Email: <a href="mailto:lamlvdoan@gmail.com">lamlvdoan@gmail.com</a> &nbsp;|&nbsp;
+      LinkedIn: <a href="https://www.linkedin.com/in/le-vinh-lam-doan/" target="_blank">My LinkedIn Profile</a>
+    </p>
+  </div>
+</footer>
     </footer>
 </body>
 </html>
